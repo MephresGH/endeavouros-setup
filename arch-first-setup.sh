@@ -21,6 +21,6 @@ sudo rm /etc/X11/xinit/xinitrc && sudo cp xinitrc /etc/X11/xinit;
 echo DOASSUDO set -U fish_greeting "I'm the admin, let me through! <(((''>";
 sudo pacman -S --needed pipewire pipewire-pulse pipewire-jack pipewire-alsa lib32-pipewire lib32-pipewire-jack;
 yay -Yc;
-sudo nano /etc/default/boot;
+sudo nano /etc/default/grub;
 grub-mkconfig -o /boot/grub/grub.cfg && mkinitcpio -P;
 ./Arch-Clear.sh
