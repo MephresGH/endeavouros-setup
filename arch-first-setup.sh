@@ -1,6 +1,7 @@
 #!/bin/bash
 printf "Starting the setup script...";
 sleep 1;
+sudo pacman -Sy archlinux-keyring;
 sudo pacman -S --needed fish;
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si;
 yay -Syu;

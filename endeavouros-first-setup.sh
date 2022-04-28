@@ -1,6 +1,7 @@
 #!/bin/bash
 printf "Starting the setup script...\n";
 sleep 1;
+sudo pacman -Sy archlinux-keyring;
 sudo pacman -Rsc yay;
 sudo pacman -Rsc xfce4-terminal;
 sudo pacman -Rsc konsole;
