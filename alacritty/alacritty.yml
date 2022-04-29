@@ -45,9 +45,9 @@ window:
   #
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
-  #padding:
-  #  x: 0
-  #  y: 0
+ padding:
+  x: 3
+  y: 2
 
   # Spread additional padding evenly around the terminal content.
   #dynamic_padding: false
@@ -81,7 +81,7 @@ window:
   #startup_mode: Windowed
 
   # Window title
-  title: Archbox
+  #title: Archbox
 
   # Allow terminal applications to change Alacritty's window title.
   dynamic_title: true
@@ -105,33 +105,33 @@ window:
   #history: 10000
 
   # Scrolling distance multiplier.
-  #multiplier: 3
+  multiplier: 6
 
 # Font configuration
 font:
     #Normal (roman) font face
-    #normal:
+  normal:
     # Font family
     #
     # Default:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    #family: monospace
+    family: Hack
 
     # The `style` can be specified to pick a specific face.
-    #style: Regular
+    style: Regular
 
   # Bold font face
-    #bold:
+  bold:
     # Font family
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    #family: monospace
+    family: Hack
 
     # The `style` can be specified to pick a specific face.
-    #style: Bold
+    style: Bold
 
   # Italic font face
   italic:
@@ -139,21 +139,21 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    #family: monospace
+    family: Hack
 
     # The `style` can be specified to pick a specific face.
     style: Italic
 
   # Bold italic font face
-  #bold_italic:
+  bold_italic:
     # Font family
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-   #family: monospace
+    family: Hack
 
     # The `style` can be specified to pick a specific face.
-    #style: Bold Italic
+    style: Bold Italic
 
   # Point size
   size: 9.0

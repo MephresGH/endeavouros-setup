@@ -6,11 +6,11 @@ sudo pacman -Sy --needed git base-devel && git clone https://aur.archlinux.org/y
 sudo pacman -Sy --needed archlinux-keyring;
 sudo pacman -Sy --needed fish;
 sudo pacman -Sy --needed nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader steam obs-studio gamemode discord;
-sudo pacman -Sy --needed plasma-desktop plasma-nm plasma-pa kinfocenter powerdevil dolphin kde-gtk-config eog parole;
+sudo pacman -Sy --needed plasma-desktop plasma-nm plasma-pa kscreen kinfocenter powerdevil dolphin kde-gtk-config eog parole;
 sudo pacman -Sy --needed shotcut;
 sudo pacman -Sy --needed ark;
 sudo pacman -Sy --needed wine-testing;
-sudo pacman -Sy --needed pipewire pipewire-pulse pipewire-jack pipewire-alsa lib32-pipewire lib32-pipewire-jack;
+sudo pacman -Sy --needed pipewire pipewire-pulse pipewire-jack pipewire-alsa lib32-pipewire lib32-pipewire-jack wireplumber;
 yay -Syu;
 yay --needed goverlay;
 yay --needed mangohud;
