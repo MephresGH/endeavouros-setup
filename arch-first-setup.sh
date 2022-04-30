@@ -29,6 +29,8 @@ cp -r alacritty ~/.config;
 sudo cp Xwrapper.config /etc/X11;
 sudo rm /etc/X11/xorg.conf;
 sudo nano /etc/X11/xorg.conf;
+mkdir ~/.config/mpv;
+printf "loop-playlist=inf\nloop-file=inf" | tee ~/.config/mpv/mpv.conf;
 sudo nvidia-xconfig -a --cool-bits 28 && sudo nvidia-settings;
 cp autostart.sh ~/.config/autostart-scripts;
 sudo rm /etc/X11/xinit/xinitrc && sudo cp xinitrc /etc/X11/xinit;

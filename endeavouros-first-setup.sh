@@ -16,7 +16,7 @@ sudo pacman -Sy --needed fish alacritty;
 echo Installing NVIDIA Drivers...
 sudo pacman -Sy --needed nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader steam obs-studio gamemode discord;
 echo Installing KDE Plasma...
-sudo pacman -Sy --needed plasma-desktop plasma-nm ark plasma-pa kscreen kinfocenter powerdevil dolphin kde-gtk-config eog parole;
+sudo pacman -Sy --needed plasma-desktop plasma-nm ark plasma-pa kscreen kinfocenter powerdevil dolphin kde-gtk-config eog mpv;
 echo Installing Video Production Tools...
 sudo pacman -Sy --needed shotcut obs-studio audacity;
 echo Installing Wine Testing Build...
@@ -33,6 +33,8 @@ cp -r alacritty ~/.config;
 sudo cp Xwrapper.config /etc/X11;
 sudo rm /etc/X11/xorg.conf;
 sudo nano /etc/X11/xorg.conf;
+mkdir ~/.config/mpv;
+printf "loop-playlist=inf\nloop-file=inf" | tee ~/.config/mpv/mpv.conf;
 sudo nvidia-xconfig -a --cool-bits 28 && sudo nvidia-settings;
 cp autostart.sh ~/.config/autostart-scripts;
 sudo rm /etc/X11/xinit/xinitrc && sudo cp xinitrc /etc/X11/xinit;
