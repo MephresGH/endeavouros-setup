@@ -48,7 +48,6 @@ mkdir "~/.config/autostart-scripts";
 mkdir "~/.config/mpv";
 mkdir "~/.config/fish";
 sudo mkdir "/root/.config/fish";
-sudo chmod +x "Downloads/Setup/xinitrc"
 sudo rm "/etc/X11/xinit/xinitrc";
 sudo cp ~/Downloads/Setup/xinitrc "/etc/X11/xinit";
 printf "loop-playlist=inf\nloop-file=inf" | tee "~/.config/mpv/mpv.conf";
