@@ -1,0 +1,6 @@
+game:
+  exe: /run/media/mephres/60779a91-11df-44f5-a1e8-52074439e469/Anger Foot/Anger Foot.exe
+system:
+  env:
+    DXVK_ASYNC: '1'
+wine: {}

@@ -1,0 +1,2998 @@
+22:48:27.593: CPU Name: AMD Ryzen 5 3600X 6-Core Processor
+22:48:27.593: CPU Speed: 3800.000MHz
+22:48:27.593: Physical Cores: 6, Logical Cores: 12
+22:48:27.593: Physical Memory: 15921MB Total, 12088MB Free
+22:48:27.593: Kernel Version: Linux 5.17.5-arch1-1
+22:48:27.594: Distribution: EndeavourOS Unknown
+22:48:27.594: Session Type: tty
+22:48:27.594: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+22:48:27.594: Qt Version: 5.15.3 (runtime), 5.15.3 (compiled)
+22:48:27.594: Portable mode: false
+22:48:27.619: OBS 27.2.3-1 (linux)
+22:48:27.619: ---------------------------------
+22:48:27.619: ---------------------------------
+22:48:27.619: audio settings reset:
+22:48:27.619: 	samples per sec: 48000
+22:48:27.619: 	speakers:        2
+22:48:27.620: ---------------------------------
+22:48:27.620: Initializing OpenGL...
+22:48:27.726: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2
+22:48:27.726: OpenGL loaded successfully, version 3.3.0 NVIDIA 510.68.02, shading language 3.30 NVIDIA via Cg compiler
+22:48:27.732: ---------------------------------
+22:48:27.732: video settings reset:
+22:48:27.732: 	base resolution:   1920x1080
+22:48:27.732: 	output resolution: 1920x1080
+22:48:27.732: 	downscale filter:  Lanczos
+22:48:27.732: 	fps:               60/1
+22:48:27.732: 	format:            NV12
+22:48:27.732: 	YUV mode:          709/Partial
+22:48:27.732: NV12 texture support not available
+22:48:27.732: Audio monitoring device:
+22:48:27.732: 	name: Default
+22:48:27.732: 	id: default
+22:48:27.732: ---------------------------------
+22:48:27.733: Failed to load 'en-US' text for module: 'decklink-captions.so'
+22:48:27.734: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+22:48:27.776: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+22:48:27.776: No blackmagic support
+22:48:27.781: v4l2loopback not installed, virtual camera disabled
+22:48:27.783: NVENC supported
+22:48:27.783: FFMPEG VAAPI supported
+22:48:27.787: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+22:48:27.787: 
+22:48:27.787: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+22:48:27.788: [rtmp-services plugin] Remote update of URL "https://obsproject.com/obs2_update/rtmp-services/v3/package.json" failed: Could not resolve host: obsproject.com
+22:48:27.788: ---------------------------------
+22:48:27.788:   Loaded Modules:
+22:48:27.788:     nvfbc.so
+22:48:27.788:     text-freetype2.so
+22:48:27.788:     rtmp-services.so
+22:48:27.788:     obs-x264.so
+22:48:27.788:     obs-transitions.so
+22:48:27.788:     obs-outputs.so
+22:48:27.788:     obs-libfdk.so
+22:48:27.788:     obs-filters.so
+22:48:27.788:     obs-ffmpeg.so
+22:48:27.788:     linux-v4l2.so
+22:48:27.788:     linux-pulseaudio.so
+22:48:27.788:     linux-jack.so
+22:48:27.788:     linux-decklink.so
+22:48:27.788:     linux-capture.so
+22:48:27.788:     linux-alsa.so
+22:48:27.788:     image-source.so
+22:48:27.788:     frontend-tools.so
+22:48:27.788:     decklink-ouput-ui.so
+22:48:27.788:     decklink-captions.so
+22:48:27.788: ---------------------------------
+22:48:27.788: ==== Startup complete ===============================================
+22:48:27.809: All scene data cleared
+22:48:27.809: ------------------------------------------------
+22:48:27.811: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.51) 15.0.0'
+22:48:27.811: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+22:48:27.811: pulse-input: Started recording from 'alsa_output.pci-0000_07_00.1.hdmi-stereo-extra1.monitor'
+22:48:27.811: [Loaded global audio device]: 'Desktop Audio'
+22:48:27.811: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.51) 15.0.0'
+22:48:27.811: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+22:48:27.811: pulse-input: Started recording from 'alsa_input.usb-audio-technica_AT2020USB_-00.analog-stereo'
+22:48:27.811: [Loaded global audio device]: 'Mic/Aux'
+22:48:27.811:     - filter: 'Compressor' (compressor_filter)
+22:48:27.811:     - filter: 'Noise Gate' (noise_gate_filter)
+22:48:27.811:     - filter: 'Limiter' (limiter_filter)
+22:48:27.916: Unable to cleanup NvFBC
+22:48:27.957: Switched to scene 'Scene'
+22:48:27.957: ------------------------------------------------
+22:48:27.957: Loaded scenes:
+22:48:27.957: - scene 'Scene':
+22:48:27.957:     - source: 'NvFBC Source' (nvfbc-source)
+22:48:27.957: ------------------------------------------------
+22:48:28.335: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+22:48:28.335: 
+22:49:50.636: User Removed source 'NvFBC Source' (nvfbc-source) from scene 'Scene'
+22:49:50.656: Unable to cleanup NvFBC
+22:50:01.905: Unable to cleanup NvFBC
+22:50:01.909: User added source 'NvFBC Source' (nvfbc-source) to scene 'Scene'
+22:51:14.202: User Removed source 'NvFBC Source' (nvfbc-source) from scene 'Scene'
+22:51:14.212: Unable to cleanup NvFBC
+22:51:17.414: User added source 'Window Capture (Xcomposite)' (xcomposite_input) to scene 'Scene'
+22:51:17.438: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+22:51:17.440: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+22:51:17.440: 	title: Desktop — Plasma
+22:51:17.440: 	class: plasmashell
+22:51:17.440: 	Bit depth: 32
+22:51:17.440: 	Found proper GLXFBConfig (in 9): yes
+22:51:17.440: 
+22:51:17.915: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+22:51:17.917: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+22:51:17.917: 	title: Desktop — Plasma
+22:51:17.917: 	class: plasmashell
+22:51:17.917: 	Bit depth: 32
+22:51:17.917: 	Found proper GLXFBConfig (in 9): yes
+22:51:17.917: 
+23:01:33.004: Starting recording due to hotkey
+23:01:33.006: ---------------------------------
+23:01:33.006: [NVENC encoder: 'recording_h264'] settings:
+23:01:33.006: 	rate_control: CQP
+23:01:33.006: 	bitrate:      0
+23:01:33.006: 	cqp:          19
+23:01:33.006: 	keyint:       250
+23:01:33.006: 	preset:       hp
+23:01:33.006: 	profile:      high
+23:01:33.006: 	width:        1920
+23:01:33.006: 	height:       1080
+23:01:33.006: 	2-pass:       false
+23:01:33.006: 	b-frames:     2
+23:01:33.006: 	psycho-aq:    0
+23:01:33.006: 	GPU:          0
+23:01:33.006: 
+23:01:33.095: libfdk_aac encoder created
+23:01:33.095: libfdk_aac bitrate: 160, channels: 2
+23:01:33.100: ==== Recording Start ===============================================
+23:01:33.100: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-02 23-01-33.mkv'...
+23:01:40.682: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+23:01:40.684: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+23:01:40.684: 	title: PB_Introduction - Project Brutality 3.0
+23:01:40.684: 	class: gzdoom.exe
+23:01:40.684: 	Bit depth: 24
+23:01:40.684: 	Found proper GLXFBConfig (in 9): yes
+23:01:40.684: 
+23:01:41.199: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+23:01:41.200: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+23:01:41.200: 	title: PB_Introduction - Project Brutality 3.0
+23:01:41.200: 	class: gzdoom.exe
+23:01:41.200: 	Bit depth: 24
+23:01:41.200: 	Found proper GLXFBConfig (in 9): yes
+23:01:41.200: 
+23:02:17.979: Stopping recording due to hotkey
+23:02:18.188: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-02 23-01-33.mkv' stopped
+23:02:18.188: Output 'adv_file_output': stopping
+23:02:18.188: Output 'adv_file_output': Total frames output: 2694
+23:02:18.188: Output 'adv_file_output': Total drawn frames: 2705
+23:02:18.188: ==== Recording Stop ================================================
+23:02:18.221: libfdk_aac encoder destroyed
+23:02:19.991: Starting recording due to hotkey
+23:02:19.993: ---------------------------------
+23:02:19.993: [NVENC encoder: 'recording_h264'] settings:
+23:02:19.993: 	rate_control: CQP
+23:02:19.993: 	bitrate:      0
+23:02:19.993: 	cqp:          19
+23:02:19.993: 	keyint:       250
+23:02:19.993: 	preset:       hp
+23:02:19.993: 	profile:      high
+23:02:19.993: 	width:        1920
+23:02:19.993: 	height:       1080
+23:02:19.993: 	2-pass:       false
+23:02:19.993: 	b-frames:     2
+23:02:19.993: 	psycho-aq:    0
+23:02:19.993: 	GPU:          0
+23:02:19.993: 
+23:02:20.057: libfdk_aac encoder created
+23:02:20.057: libfdk_aac bitrate: 160, channels: 2
+23:02:20.059: ==== Recording Start ===============================================
+23:02:20.059: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-02 23-02-19.mkv'...
+23:04:31.532: Stopping recording due to hotkey
+23:04:31.745: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-02 23-02-19.mkv' stopped
+23:04:31.745: Output 'adv_file_output': stopping
+23:04:31.745: Output 'adv_file_output': Total frames output: 7890
+23:04:31.745: Output 'adv_file_output': Total drawn frames: 7901
+23:04:31.745: ==== Recording Stop ================================================
+23:04:31.780: libfdk_aac encoder destroyed
+23:04:34.599: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+23:04:34.604: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+23:04:34.604: 	title: Security Complex - Project Brutality 3.0
+23:04:34.604: 	class: gzdoom.exe
+23:04:34.604: 	Bit depth: 24
+23:04:34.604: 	Found proper GLXFBConfig (in 9): yes
+23:04:34.604: 
+23:04:54.349: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+23:04:54.350: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+23:04:54.350: 	title: GZDoom g4.7.1  64-bit (2021-10-20 08:18:37 +0200)
+23:04:54.350: 	class: gzdoom.exe
+23:04:54.350: 	Bit depth: 24
+23:04:54.350: 	Found proper GLXFBConfig (in 9): yes
+23:04:54.350: 
+23:05:21.049: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+23:05:21.050: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+23:05:21.050: 	title: GZDoom g4.7.1  64-bit (2021-10-20 08:18:37 +0200)
+23:05:21.050: 	class: gzdoom.exe
+23:05:21.050: 	Bit depth: 24
+23:05:21.050: 	Found proper GLXFBConfig (in 9): yes
+23:05:21.050: 
+23:05:36.396: Starting recording due to hotkey
+23:05:36.398: ---------------------------------
+23:05:36.398: [NVENC encoder: 'recording_h264'] settings:
+23:05:36.398: 	rate_control: CQP
+23:05:36.398: 	bitrate:      0
+23:05:36.398: 	cqp:          19
+23:05:36.398: 	keyint:       250
+23:05:36.398: 	preset:       hp
+23:05:36.398: 	profile:      high
+23:05:36.398: 	width:        1920
+23:05:36.398: 	height:       1080
+23:05:36.398: 	2-pass:       false
+23:05:36.398: 	b-frames:     2
+23:05:36.398: 	psycho-aq:    0
+23:05:36.398: 	GPU:          0
+23:05:36.398: 
+23:05:36.462: libfdk_aac encoder created
+23:05:36.462: libfdk_aac bitrate: 160, channels: 2
+23:05:36.467: ==== Recording Start ===============================================
+23:05:36.467: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-02 23-05-36.mkv'...
+23:17:09.320: Stopping recording due to hotkey
+23:17:09.536: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-02 23-05-36.mkv' stopped
+23:17:09.536: Output 'adv_file_output': stopping
+23:17:09.536: Output 'adv_file_output': Total frames output: 41573
+23:17:09.536: Output 'adv_file_output': Total drawn frames: 41584
+23:17:09.536: ==== Recording Stop ================================================
+23:17:09.569: libfdk_aac encoder destroyed
+23:20:57.883: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+23:20:57.883: 
+23:36:38.374: Starting recording due to hotkey
+23:36:38.376: ---------------------------------
+23:36:38.376: [NVENC encoder: 'recording_h264'] settings:
+23:36:38.376: 	rate_control: CQP
+23:36:38.376: 	bitrate:      0
+23:36:38.376: 	cqp:          19
+23:36:38.376: 	keyint:       250
+23:36:38.376: 	preset:       hp
+23:36:38.376: 	profile:      high
+23:36:38.376: 	width:        1920
+23:36:38.376: 	height:       1080
+23:36:38.376: 	2-pass:       false
+23:36:38.376: 	b-frames:     2
+23:36:38.376: 	psycho-aq:    0
+23:36:38.376: 	GPU:          0
+23:36:38.376: 
+23:36:38.443: libfdk_aac encoder created
+23:36:38.443: libfdk_aac bitrate: 160, channels: 2
+23:36:38.448: ==== Recording Start ===============================================
+23:36:38.448: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-02 23-36-38.mkv'...
+23:47:13.461: Stopping recording due to hotkey
+23:47:13.670: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-02 23-36-38.mkv' stopped
+23:47:13.670: Output 'adv_file_output': stopping
+23:47:13.670: Output 'adv_file_output': Total frames output: 38102
+23:47:13.670: Output 'adv_file_output': Total drawn frames: 38114
+23:47:13.670: ==== Recording Stop ================================================
+23:47:13.704: libfdk_aac encoder destroyed
+00:25:08.298: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:25:08.301: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:25:08.301: 	title: Desktop — Plasma
+00:25:08.301: 	class: plasmashell
+00:25:08.301: 	Bit depth: 32
+00:25:08.301: 	Found proper GLXFBConfig (in 9): yes
+00:25:08.301: 
+00:25:08.782: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:25:08.783: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:25:08.783: 	title: Desktop — Plasma
+00:25:08.783: 	class: plasmashell
+00:25:08.783: 	Bit depth: 32
+00:25:08.783: 	Found proper GLXFBConfig (in 9): yes
+00:25:08.783: 
+00:25:09.865: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:25:09.866: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:25:09.866: 	title: Hotline Miami - Redux
+00:25:09.866: 	class: hotline miami redux.exe
+00:25:09.866: 	Bit depth: 24
+00:25:09.866: 	Found proper GLXFBConfig (in 9): yes
+00:25:09.866: 
+00:25:10.348: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:25:10.348: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:25:10.348: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:25:10.349: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:25:10.349: 	title: Hotline Miami - Redux
+00:25:10.349: 	class: hotline miami redux.exe
+00:25:10.349: 	Bit depth: 24
+00:25:10.349: 	Found proper GLXFBConfig (in 9): yes
+00:25:10.349: 
+00:25:11.768: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:25:11.769: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:25:11.771: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:25:11.773: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:25:11.773: 	title: Hotline Miami - Redux
+00:25:11.773: 	class: hotline miami redux.exe
+00:25:11.773: 	Bit depth: 24
+00:25:11.773: 	Found proper GLXFBConfig (in 9): yes
+00:25:11.773: 
+00:25:11.782: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:25:11.785: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:25:11.785: 	title: Hotline Miami - Redux
+00:25:11.785: 	class: hotline miami redux.exe
+00:25:11.785: 	Bit depth: 24
+00:25:11.785: 	Found proper GLXFBConfig (in 9): yes
+00:25:11.785: 
+00:28:10.077: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:28:10.216: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:28:10.216: 	title: Anger Foot
+00:28:10.216: 	class: anger foot.exe
+00:28:10.216: 	Bit depth: 24
+00:28:10.216: 	Found proper GLXFBConfig (in 9): yes
+00:28:10.216: 
+00:28:10.548: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:28:10.632: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:28:10.632: 	title: Anger Foot
+00:28:10.632: 	class: anger foot.exe
+00:28:10.632: 	Bit depth: 24
+00:28:10.632: 	Found proper GLXFBConfig (in 9): yes
+00:28:10.632: 
+00:28:17.416: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:28:17.416: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:28:17.416: 	title: Anger Foot
+00:28:17.416: 	class: anger foot.exe
+00:28:17.416: 	Bit depth: 24
+00:28:17.416: 	Found proper GLXFBConfig (in 9): yes
+00:28:17.416: 
+00:28:18.641: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:28:18.642: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:28:18.642: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:28:18.646: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:28:18.646: 	title: Anger Foot
+00:28:18.646: 	class: anger foot.exe
+00:28:18.646: 	Bit depth: 24
+00:28:18.646: 	Found proper GLXFBConfig (in 9): yes
+00:28:18.646: 
+00:28:18.647: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:28:18.660: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:28:18.660: 	title: Anger Foot
+00:28:18.660: 	class: anger foot.exe
+00:28:18.660: 	Bit depth: 24
+00:28:18.660: 	Found proper GLXFBConfig (in 9): yes
+00:28:18.660: 
+00:28:18.662: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:28:18.664: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:28:18.664: 	title: Anger Foot
+00:28:18.664: 	class: anger foot.exe
+00:28:18.664: 	Bit depth: 24
+00:28:18.664: 	Found proper GLXFBConfig (in 9): yes
+00:28:18.664: 
+00:28:18.665: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:28:18.667: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:28:18.667: 	title: Anger Foot
+00:28:18.667: 	class: anger foot.exe
+00:28:18.667: 	Bit depth: 24
+00:28:18.667: 	Found proper GLXFBConfig (in 9): yes
+00:28:18.667: 
+00:28:18.684: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:28:18.742: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:28:18.742: 	title: Anger Foot
+00:28:18.742: 	class: anger foot.exe
+00:28:18.742: 	Bit depth: 24
+00:28:18.742: 	Found proper GLXFBConfig (in 9): yes
+00:28:18.742: 
+00:28:29.286: Starting recording due to hotkey
+00:28:29.288: ---------------------------------
+00:28:29.288: [NVENC encoder: 'recording_h264'] settings:
+00:28:29.288: 	rate_control: CQP
+00:28:29.288: 	bitrate:      0
+00:28:29.288: 	cqp:          19
+00:28:29.288: 	keyint:       250
+00:28:29.288: 	preset:       hp
+00:28:29.288: 	profile:      high
+00:28:29.288: 	width:        1920
+00:28:29.288: 	height:       1080
+00:28:29.288: 	2-pass:       false
+00:28:29.288: 	b-frames:     2
+00:28:29.288: 	psycho-aq:    0
+00:28:29.288: 	GPU:          0
+00:28:29.288: 
+00:28:29.698: libfdk_aac encoder created
+00:28:29.698: libfdk_aac bitrate: 160, channels: 2
+00:28:29.703: ==== Recording Start ===============================================
+00:28:29.703: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-28-29.mkv'...
+00:29:00.098: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:29:00.100: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:29:00.100: 	title: Anger Foot
+00:29:00.100: 	class: anger foot.exe
+00:29:00.100: 	Bit depth: 24
+00:29:00.100: 	Found proper GLXFBConfig (in 9): yes
+00:29:00.100: 
+00:29:03.099: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:29:03.100: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:29:03.100: 	title: Anger Foot
+00:29:03.100: 	class: anger foot.exe
+00:29:03.100: 	Bit depth: 24
+00:29:03.100: 	Found proper GLXFBConfig (in 9): yes
+00:29:03.100: 
+00:29:35.286: Stopping recording due to hotkey
+00:29:35.508: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-28-29.mkv' stopped
+00:29:35.508: Output 'adv_file_output': stopping
+00:29:35.508: Output 'adv_file_output': Total frames output: 3937
+00:29:35.508: Output 'adv_file_output': Total drawn frames: 3948
+00:29:35.508: ==== Recording Stop ================================================
+00:29:35.569: libfdk_aac encoder destroyed
+00:29:41.278: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:29:41.280: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:29:41.280: 	title: Anger Foot
+00:29:41.280: 	class: anger foot.exe
+00:29:41.280: 	Bit depth: 24
+00:29:41.280: 	Found proper GLXFBConfig (in 9): yes
+00:29:41.280: 
+00:29:42.840: Starting recording due to hotkey
+00:29:42.842: ---------------------------------
+00:29:42.842: [NVENC encoder: 'recording_h264'] settings:
+00:29:42.842: 	rate_control: CQP
+00:29:42.842: 	bitrate:      0
+00:29:42.842: 	cqp:          19
+00:29:42.842: 	keyint:       250
+00:29:42.842: 	preset:       hp
+00:29:42.842: 	profile:      high
+00:29:42.842: 	width:        1920
+00:29:42.842: 	height:       1080
+00:29:42.842: 	2-pass:       false
+00:29:42.842: 	b-frames:     2
+00:29:42.842: 	psycho-aq:    0
+00:29:42.842: 	GPU:          0
+00:29:42.842: 
+00:29:43.270: libfdk_aac encoder created
+00:29:43.270: libfdk_aac bitrate: 160, channels: 2
+00:29:43.275: ==== Recording Start ===============================================
+00:29:43.275: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-29-42.mkv'...
+00:30:01.688: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:30:01.689: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:30:01.689: 	title: Anger Foot
+00:30:01.689: 	class: anger foot.exe
+00:30:01.689: 	Bit depth: 24
+00:30:01.689: 	Found proper GLXFBConfig (in 9): yes
+00:30:01.689: 
+00:30:02.920: Stopping recording due to hotkey
+00:30:03.135: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-29-42.mkv' stopped
+00:30:03.135: Output 'adv_file_output': stopping
+00:30:03.135: Output 'adv_file_output': Total frames output: 1180
+00:30:03.135: Output 'adv_file_output': Total drawn frames: 1192
+00:30:03.136: ==== Recording Stop ================================================
+00:30:03.192: libfdk_aac encoder destroyed
+00:30:04.370: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:30:04.375: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:30:04.375: 	title: Anger Foot
+00:30:04.375: 	class: anger foot.exe
+00:30:04.375: 	Bit depth: 24
+00:30:04.375: 	Found proper GLXFBConfig (in 9): yes
+00:30:04.375: 
+00:30:04.382: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:30:04.383: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:30:04.383: 	title: Anger Foot
+00:30:04.383: 	class: anger foot.exe
+00:30:04.383: 	Bit depth: 24
+00:30:04.383: 	Found proper GLXFBConfig (in 9): yes
+00:30:04.383: 
+00:30:15.452: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:30:15.452: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:30:15.453: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:30:15.456: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:30:15.456: 	title: Anger Foot
+00:30:15.456: 	class: anger foot.exe
+00:30:15.456: 	Bit depth: 24
+00:30:15.456: 	Found proper GLXFBConfig (in 9): yes
+00:30:15.456: 
+00:30:15.457: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:30:15.460: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:30:15.460: 	title: Anger Foot
+00:30:15.460: 	class: anger foot.exe
+00:30:15.460: 	Bit depth: 24
+00:30:15.460: 	Found proper GLXFBConfig (in 9): yes
+00:30:15.460: 
+00:30:15.465: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:30:15.467: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:30:15.467: 	title: Anger Foot
+00:30:15.467: 	class: anger foot.exe
+00:30:15.467: 	Bit depth: 24
+00:30:15.467: 	Found proper GLXFBConfig (in 9): yes
+00:30:15.467: 
+00:30:15.482: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:30:15.485: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:30:15.485: 	title: Anger Foot
+00:30:15.485: 	class: anger foot.exe
+00:30:15.485: 	Bit depth: 24
+00:30:15.485: 	Found proper GLXFBConfig (in 9): yes
+00:30:15.485: 
+00:30:17.640: Starting recording due to hotkey
+00:30:17.642: ---------------------------------
+00:30:17.642: [NVENC encoder: 'recording_h264'] settings:
+00:30:17.642: 	rate_control: CQP
+00:30:17.642: 	bitrate:      0
+00:30:17.642: 	cqp:          19
+00:30:17.642: 	keyint:       250
+00:30:17.642: 	preset:       hp
+00:30:17.642: 	profile:      high
+00:30:17.642: 	width:        1920
+00:30:17.642: 	height:       1080
+00:30:17.642: 	2-pass:       false
+00:30:17.642: 	b-frames:     2
+00:30:17.642: 	psycho-aq:    0
+00:30:17.642: 	GPU:          0
+00:30:17.642: 
+00:30:18.046: libfdk_aac encoder created
+00:30:18.046: libfdk_aac bitrate: 160, channels: 2
+00:30:18.051: ==== Recording Start ===============================================
+00:30:18.051: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-30-17.mkv'...
+00:30:48.077: Stopping recording due to hotkey
+00:30:48.290: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-30-17.mkv' stopped
+00:30:48.290: Output 'adv_file_output': stopping
+00:30:48.290: Output 'adv_file_output': Total frames output: 1803
+00:30:48.290: Output 'adv_file_output': Total drawn frames: 1814
+00:30:48.290: ==== Recording Stop ================================================
+00:30:48.449: libfdk_aac encoder destroyed
+00:30:51.021: Starting recording due to hotkey
+00:30:51.023: ---------------------------------
+00:30:51.023: [NVENC encoder: 'recording_h264'] settings:
+00:30:51.023: 	rate_control: CQP
+00:30:51.023: 	bitrate:      0
+00:30:51.023: 	cqp:          19
+00:30:51.023: 	keyint:       250
+00:30:51.023: 	preset:       hp
+00:30:51.023: 	profile:      high
+00:30:51.023: 	width:        1920
+00:30:51.023: 	height:       1080
+00:30:51.023: 	2-pass:       false
+00:30:51.023: 	b-frames:     2
+00:30:51.023: 	psycho-aq:    0
+00:30:51.023: 	GPU:          0
+00:30:51.023: 
+00:30:51.418: libfdk_aac encoder created
+00:30:51.418: libfdk_aac bitrate: 160, channels: 2
+00:30:51.420: ==== Recording Start ===============================================
+00:30:51.420: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-30-51.mkv'...
+00:31:11.328: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:31:11.330: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:31:11.330: 	title: Anger Foot
+00:31:11.330: 	class: anger foot.exe
+00:31:11.330: 	Bit depth: 24
+00:31:11.330: 	Found proper GLXFBConfig (in 9): yes
+00:31:11.330: 
+00:31:11.807: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:31:11.809: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:31:11.809: 	title: Anger Foot
+00:31:11.809: 	class: anger foot.exe
+00:31:11.809: 	Bit depth: 24
+00:31:11.809: 	Found proper GLXFBConfig (in 9): yes
+00:31:11.809: 
+00:31:12.991: Stopping recording due to hotkey
+00:31:13.210: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-30-51.mkv' stopped
+00:31:13.210: Output 'adv_file_output': stopping
+00:31:13.210: Output 'adv_file_output': Total frames output: 1295
+00:31:13.210: Output 'adv_file_output': Total drawn frames: 1307
+00:31:13.210: ==== Recording Stop ================================================
+00:31:13.266: libfdk_aac encoder destroyed
+00:31:17.770: Starting recording due to hotkey
+00:31:17.772: ---------------------------------
+00:31:17.772: [NVENC encoder: 'recording_h264'] settings:
+00:31:17.772: 	rate_control: CQP
+00:31:17.772: 	bitrate:      0
+00:31:17.772: 	cqp:          19
+00:31:17.772: 	keyint:       250
+00:31:17.772: 	preset:       hp
+00:31:17.772: 	profile:      high
+00:31:17.772: 	width:        1920
+00:31:17.772: 	height:       1080
+00:31:17.772: 	2-pass:       false
+00:31:17.772: 	b-frames:     2
+00:31:17.772: 	psycho-aq:    0
+00:31:17.772: 	GPU:          0
+00:31:17.772: 
+00:31:17.940: libfdk_aac encoder created
+00:31:17.940: libfdk_aac bitrate: 160, channels: 2
+00:31:17.942: ==== Recording Start ===============================================
+00:31:17.942: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-31-17.mkv'...
+00:33:59.797: Stopping recording due to hotkey
+00:34:00.006: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-31-17.mkv' stopped
+00:34:00.006: Output 'adv_file_output': stopping
+00:34:00.006: Output 'adv_file_output': Total frames output: 9712
+00:34:00.006: Output 'adv_file_output': Total drawn frames: 9724
+00:34:00.007: ==== Recording Stop ================================================
+00:34:00.068: libfdk_aac encoder destroyed
+00:34:03.902: Starting recording due to hotkey
+00:34:03.904: ---------------------------------
+00:34:03.904: [NVENC encoder: 'recording_h264'] settings:
+00:34:03.904: 	rate_control: CQP
+00:34:03.904: 	bitrate:      0
+00:34:03.904: 	cqp:          19
+00:34:03.904: 	keyint:       250
+00:34:03.904: 	preset:       hp
+00:34:03.904: 	profile:      high
+00:34:03.904: 	width:        1920
+00:34:03.904: 	height:       1080
+00:34:03.904: 	2-pass:       false
+00:34:03.904: 	b-frames:     2
+00:34:03.904: 	psycho-aq:    0
+00:34:03.904: 	GPU:          0
+00:34:03.904: 
+00:34:04.099: libfdk_aac encoder created
+00:34:04.099: libfdk_aac bitrate: 160, channels: 2
+00:34:04.100: ==== Recording Start ===============================================
+00:34:04.100: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-34-03.mkv'...
+00:34:04.423: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:34:04.425: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:34:04.425: 	title: Anger Foot
+00:34:04.425: 	class: anger foot.exe
+00:34:04.425: 	Bit depth: 24
+00:34:04.425: 	Found proper GLXFBConfig (in 9): yes
+00:34:04.425: 
+00:34:50.065: Stopping recording due to hotkey
+00:34:50.297: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-34-03.mkv' stopped
+00:34:50.297: Output 'adv_file_output': stopping
+00:34:50.297: Output 'adv_file_output': Total frames output: 2759
+00:34:50.297: Output 'adv_file_output': Total drawn frames: 2771
+00:34:50.297: ==== Recording Stop ================================================
+00:34:50.358: libfdk_aac encoder destroyed
+00:34:51.552: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:34:51.554: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:34:51.554: 	title: Anger Foot
+00:34:51.554: 	class: anger foot.exe
+00:34:51.554: 	Bit depth: 24
+00:34:51.554: 	Found proper GLXFBConfig (in 9): yes
+00:34:51.554: 
+00:34:52.216: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:34:52.219: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:34:52.219: 	title: Anger Foot
+00:34:52.219: 	class: anger foot.exe
+00:34:52.219: 	Bit depth: 24
+00:34:52.219: 	Found proper GLXFBConfig (in 9): yes
+00:34:52.219: 
+00:34:52.232: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:34:52.232: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:34:52.232: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:34:52.232: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:34:52.232: 	title: Anger Foot
+00:34:52.232: 	class: anger foot.exe
+00:34:52.232: 	Bit depth: 24
+00:34:52.232: 	Found proper GLXFBConfig (in 9): yes
+00:34:52.232: 
+00:34:57.704: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:34:57.704: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:34:57.704: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:34:57.709: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:34:57.709: 	title: Anger Foot
+00:34:57.709: 	class: anger foot.exe
+00:34:57.709: 	Bit depth: 24
+00:34:57.709: 	Found proper GLXFBConfig (in 9): yes
+00:34:57.709: 
+00:34:57.710: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:34:57.722: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:34:57.722: 	title: Anger Foot
+00:34:57.722: 	class: anger foot.exe
+00:34:57.722: 	Bit depth: 24
+00:34:57.722: 	Found proper GLXFBConfig (in 9): yes
+00:34:57.722: 
+00:34:57.724: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:34:57.726: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:34:57.726: 	title: Anger Foot
+00:34:57.726: 	class: anger foot.exe
+00:34:57.726: 	Bit depth: 24
+00:34:57.726: 	Found proper GLXFBConfig (in 9): yes
+00:34:57.726: 
+00:34:57.732: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:34:57.733: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:34:57.733: 	title: Anger Foot
+00:34:57.733: 	class: anger foot.exe
+00:34:57.733: 	Bit depth: 24
+00:34:57.733: 	Found proper GLXFBConfig (in 9): yes
+00:34:57.733: 
+00:34:57.749: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:34:57.803: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:34:57.803: 	title: Anger Foot
+00:34:57.803: 	class: anger foot.exe
+00:34:57.803: 	Bit depth: 24
+00:34:57.803: 	Found proper GLXFBConfig (in 9): yes
+00:34:57.803: 
+00:35:00.478: Starting recording due to hotkey
+00:35:00.480: ---------------------------------
+00:35:00.480: [NVENC encoder: 'recording_h264'] settings:
+00:35:00.480: 	rate_control: CQP
+00:35:00.480: 	bitrate:      0
+00:35:00.480: 	cqp:          19
+00:35:00.480: 	keyint:       250
+00:35:00.480: 	preset:       hp
+00:35:00.480: 	profile:      high
+00:35:00.480: 	width:        1920
+00:35:00.480: 	height:       1080
+00:35:00.480: 	2-pass:       false
+00:35:00.480: 	b-frames:     2
+00:35:00.480: 	psycho-aq:    0
+00:35:00.480: 	GPU:          0
+00:35:00.480: 
+00:35:00.658: libfdk_aac encoder created
+00:35:00.658: libfdk_aac bitrate: 160, channels: 2
+00:35:00.662: ==== Recording Start ===============================================
+00:35:00.662: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-35-00.mkv'...
+00:35:09.416: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:35:09.418: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:35:09.418: 	title: Anger Foot
+00:35:09.418: 	class: anger foot.exe
+00:35:09.418: 	Bit depth: 24
+00:35:09.418: 	Found proper GLXFBConfig (in 9): yes
+00:35:09.418: 
+00:35:30.240: Stopping recording due to hotkey
+00:35:30.452: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-35-00.mkv' stopped
+00:35:30.452: Output 'adv_file_output': stopping
+00:35:30.452: Output 'adv_file_output': Total frames output: 1776
+00:35:30.452: Output 'adv_file_output': Total drawn frames: 1788
+00:35:30.452: ==== Recording Stop ================================================
+00:35:30.512: libfdk_aac encoder destroyed
+00:35:31.782: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:35:31.784: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:35:31.784: 	title: Anger Foot
+00:35:31.784: 	class: anger foot.exe
+00:35:31.784: 	Bit depth: 24
+00:35:31.784: 	Found proper GLXFBConfig (in 9): yes
+00:35:31.784: 
+00:35:33.944: Starting recording due to hotkey
+00:35:33.946: ---------------------------------
+00:35:33.946: [NVENC encoder: 'recording_h264'] settings:
+00:35:33.946: 	rate_control: CQP
+00:35:33.946: 	bitrate:      0
+00:35:33.946: 	cqp:          19
+00:35:33.946: 	keyint:       250
+00:35:33.946: 	preset:       hp
+00:35:33.946: 	profile:      high
+00:35:33.946: 	width:        1920
+00:35:33.946: 	height:       1080
+00:35:33.946: 	2-pass:       false
+00:35:33.946: 	b-frames:     2
+00:35:33.946: 	psycho-aq:    0
+00:35:33.946: 	GPU:          0
+00:35:33.946: 
+00:35:34.116: libfdk_aac encoder created
+00:35:34.116: libfdk_aac bitrate: 160, channels: 2
+00:35:34.117: ==== Recording Start ===============================================
+00:35:34.117: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-35-33.mkv'...
+00:35:41.596: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:35:41.598: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:35:41.598: 	title: Anger Foot
+00:35:41.598: 	class: anger foot.exe
+00:35:41.598: 	Bit depth: 24
+00:35:41.598: 	Found proper GLXFBConfig (in 9): yes
+00:35:41.598: 
+00:35:55.124: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:35:55.125: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:35:55.125: 	title: Anger Foot
+00:35:55.125: 	class: anger foot.exe
+00:35:55.125: 	Bit depth: 24
+00:35:55.125: 	Found proper GLXFBConfig (in 9): yes
+00:35:55.125: 
+00:36:04.610: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:36:04.611: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:36:04.611: 	title: Anger Foot
+00:36:04.611: 	class: anger foot.exe
+00:36:04.611: 	Bit depth: 24
+00:36:04.611: 	Found proper GLXFBConfig (in 9): yes
+00:36:04.611: 
+00:37:43.849: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:37:43.851: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:37:43.851: 	title: Anger Foot
+00:37:43.851: 	class: anger foot.exe
+00:37:43.851: 	Bit depth: 24
+00:37:43.851: 	Found proper GLXFBConfig (in 9): yes
+00:37:43.851: 
+00:37:44.780: Stopping recording due to hotkey
+00:37:44.987: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-35-33.mkv' stopped
+00:37:44.987: Output 'adv_file_output': stopping
+00:37:44.987: Output 'adv_file_output': Total frames output: 7840
+00:37:44.987: Output 'adv_file_output': Total drawn frames: 7852
+00:37:44.987: ==== Recording Stop ================================================
+00:37:45.042: libfdk_aac encoder destroyed
+00:37:48.477: Starting recording due to hotkey
+00:37:48.479: ---------------------------------
+00:37:48.479: [NVENC encoder: 'recording_h264'] settings:
+00:37:48.479: 	rate_control: CQP
+00:37:48.479: 	bitrate:      0
+00:37:48.479: 	cqp:          19
+00:37:48.479: 	keyint:       250
+00:37:48.479: 	preset:       hp
+00:37:48.479: 	profile:      high
+00:37:48.479: 	width:        1920
+00:37:48.479: 	height:       1080
+00:37:48.479: 	2-pass:       false
+00:37:48.479: 	b-frames:     2
+00:37:48.479: 	psycho-aq:    0
+00:37:48.479: 	GPU:          0
+00:37:48.479: 
+00:37:48.657: libfdk_aac encoder created
+00:37:48.657: libfdk_aac bitrate: 160, channels: 2
+00:37:48.658: ==== Recording Start ===============================================
+00:37:48.658: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-37-48.mkv'...
+00:38:08.575: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:38:08.577: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:38:08.577: 	title: Anger Foot
+00:38:08.577: 	class: anger foot.exe
+00:38:08.577: 	Bit depth: 24
+00:38:08.577: 	Found proper GLXFBConfig (in 9): yes
+00:38:08.577: 
+00:39:53.652: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:39:53.654: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:39:53.654: 	title: Anger Foot
+00:39:53.654: 	class: anger foot.exe
+00:39:53.654: 	Bit depth: 24
+00:39:53.654: 	Found proper GLXFBConfig (in 9): yes
+00:39:53.654: 
+00:39:54.539: Stopping recording due to hotkey
+00:39:54.753: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-37-48.mkv' stopped
+00:39:54.753: Output 'adv_file_output': stopping
+00:39:54.753: Output 'adv_file_output': Total frames output: 7554
+00:39:54.753: Output 'adv_file_output': Total drawn frames: 7566
+00:39:54.753: ==== Recording Stop ================================================
+00:39:54.813: libfdk_aac encoder destroyed
+00:39:57.808: Starting recording due to hotkey
+00:39:57.810: ---------------------------------
+00:39:57.810: [NVENC encoder: 'recording_h264'] settings:
+00:39:57.810: 	rate_control: CQP
+00:39:57.810: 	bitrate:      0
+00:39:57.810: 	cqp:          19
+00:39:57.810: 	keyint:       250
+00:39:57.810: 	preset:       hp
+00:39:57.810: 	profile:      high
+00:39:57.810: 	width:        1920
+00:39:57.810: 	height:       1080
+00:39:57.810: 	2-pass:       false
+00:39:57.810: 	b-frames:     2
+00:39:57.810: 	psycho-aq:    0
+00:39:57.810: 	GPU:          0
+00:39:57.810: 
+00:39:57.981: libfdk_aac encoder created
+00:39:57.981: libfdk_aac bitrate: 160, channels: 2
+00:39:57.983: ==== Recording Start ===============================================
+00:39:57.983: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-39-57.mkv'...
+00:40:08.101: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:40:08.102: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:40:08.102: 	title: Anger Foot
+00:40:08.102: 	class: anger foot.exe
+00:40:08.102: 	Bit depth: 24
+00:40:08.102: 	Found proper GLXFBConfig (in 9): yes
+00:40:08.102: 
+00:40:31.449: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:40:31.450: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:40:31.450: 	title: Anger Foot
+00:40:31.450: 	class: anger foot.exe
+00:40:31.450: 	Bit depth: 24
+00:40:31.450: 	Found proper GLXFBConfig (in 9): yes
+00:40:31.450: 
+00:40:32.223: Stopping recording due to hotkey
+00:40:32.428: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-39-57.mkv' stopped
+00:40:32.428: Output 'adv_file_output': stopping
+00:40:32.428: Output 'adv_file_output': Total frames output: 2056
+00:40:32.428: Output 'adv_file_output': Total drawn frames: 2066
+00:40:32.429: ==== Recording Stop ================================================
+00:40:32.491: libfdk_aac encoder destroyed
+00:40:32.569: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:40:32.572: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:40:32.572: 	title: Anger Foot
+00:40:32.572: 	class: anger foot.exe
+00:40:32.572: 	Bit depth: 24
+00:40:32.572: 	Found proper GLXFBConfig (in 9): yes
+00:40:32.572: 
+00:40:32.582: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:40:32.590: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:40:32.590: 	title: Anger Foot
+00:40:32.590: 	class: anger foot.exe
+00:40:32.590: 	Bit depth: 24
+00:40:32.590: 	Found proper GLXFBConfig (in 9): yes
+00:40:32.590: 
+00:40:38.287: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:40:38.288: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:40:38.288: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:40:38.292: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:40:38.292: 	title: Anger Foot
+00:40:38.292: 	class: anger foot.exe
+00:40:38.292: 	Bit depth: 24
+00:40:38.292: 	Found proper GLXFBConfig (in 9): yes
+00:40:38.292: 
+00:40:38.293: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:40:38.305: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:40:38.305: 	title: Anger Foot
+00:40:38.305: 	class: anger foot.exe
+00:40:38.305: 	Bit depth: 24
+00:40:38.305: 	Found proper GLXFBConfig (in 9): yes
+00:40:38.305: 
+00:40:38.307: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:40:38.308: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:40:38.308: 	title: Anger Foot
+00:40:38.308: 	class: anger foot.exe
+00:40:38.308: 	Bit depth: 24
+00:40:38.308: 	Found proper GLXFBConfig (in 9): yes
+00:40:38.308: 
+00:40:38.332: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:40:38.337: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:40:38.337: 	title: Anger Foot
+00:40:38.337: 	class: anger foot.exe
+00:40:38.337: 	Bit depth: 24
+00:40:38.337: 	Found proper GLXFBConfig (in 9): yes
+00:40:38.337: 
+00:40:40.752: Starting recording due to hotkey
+00:40:40.754: ---------------------------------
+00:40:40.754: [NVENC encoder: 'recording_h264'] settings:
+00:40:40.754: 	rate_control: CQP
+00:40:40.754: 	bitrate:      0
+00:40:40.754: 	cqp:          19
+00:40:40.754: 	keyint:       250
+00:40:40.754: 	preset:       hp
+00:40:40.754: 	profile:      high
+00:40:40.754: 	width:        1920
+00:40:40.754: 	height:       1080
+00:40:40.754: 	2-pass:       false
+00:40:40.754: 	b-frames:     2
+00:40:40.754: 	psycho-aq:    0
+00:40:40.754: 	GPU:          0
+00:40:40.754: 
+00:40:40.929: libfdk_aac encoder created
+00:40:40.929: libfdk_aac bitrate: 160, channels: 2
+00:40:40.933: ==== Recording Start ===============================================
+00:40:40.933: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-40-40.mkv'...
+00:40:56.209: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:40:56.211: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:40:56.211: 	title: Anger Foot
+00:40:56.211: 	class: anger foot.exe
+00:40:56.211: 	Bit depth: 24
+00:40:56.211: 	Found proper GLXFBConfig (in 9): yes
+00:40:56.211: 
+00:42:08.404: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:42:08.406: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:42:08.406: 	title: Anger Foot
+00:42:08.406: 	class: anger foot.exe
+00:42:08.406: 	Bit depth: 24
+00:42:08.406: 	Found proper GLXFBConfig (in 9): yes
+00:42:08.406: 
+00:42:09.536: Stopping recording due to hotkey
+00:42:09.755: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-40-40.mkv' stopped
+00:42:09.755: Output 'adv_file_output': stopping
+00:42:09.755: Output 'adv_file_output': Total frames output: 5318
+00:42:09.755: Output 'adv_file_output': Total drawn frames: 5329
+00:42:09.755: ==== Recording Stop ================================================
+00:42:09.816: libfdk_aac encoder destroyed
+00:42:10.132: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:42:10.137: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:42:10.137: 	title: Anger Foot
+00:42:10.137: 	class: anger foot.exe
+00:42:10.137: 	Bit depth: 24
+00:42:10.137: 	Found proper GLXFBConfig (in 9): yes
+00:42:10.137: 
+00:42:10.148: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:42:10.149: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:42:10.149: 	title: Anger Foot
+00:42:10.149: 	class: anger foot.exe
+00:42:10.149: 	Bit depth: 24
+00:42:10.149: 	Found proper GLXFBConfig (in 9): yes
+00:42:10.149: 
+00:42:38.048: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:42:38.048: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:42:38.048: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:42:38.052: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:42:38.052: 	title: Anger Foot
+00:42:38.052: 	class: anger foot.exe
+00:42:38.052: 	Bit depth: 24
+00:42:38.052: 	Found proper GLXFBConfig (in 9): yes
+00:42:38.052: 
+00:42:38.053: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:42:38.066: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:42:38.066: 	title: Anger Foot
+00:42:38.066: 	class: anger foot.exe
+00:42:38.066: 	Bit depth: 24
+00:42:38.066: 	Found proper GLXFBConfig (in 9): yes
+00:42:38.066: 
+00:42:38.068: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:42:38.072: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:42:38.072: 	title: Anger Foot
+00:42:38.072: 	class: anger foot.exe
+00:42:38.072: 	Bit depth: 24
+00:42:38.072: 	Found proper GLXFBConfig (in 9): yes
+00:42:38.072: 
+00:42:38.084: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:42:38.086: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:42:38.086: 	title: Anger Foot
+00:42:38.086: 	class: anger foot.exe
+00:42:38.086: 	Bit depth: 24
+00:42:38.086: 	Found proper GLXFBConfig (in 9): yes
+00:42:38.086: 
+00:42:56.566: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:42:56.567: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:42:56.567: 	title: Anger Foot
+00:42:56.567: 	class: anger foot.exe
+00:42:56.567: 	Bit depth: 24
+00:42:56.567: 	Found proper GLXFBConfig (in 9): yes
+00:42:56.567: 
+00:43:18.792: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:43:18.793: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:43:18.793: 	title: Anger Foot
+00:43:18.793: 	class: anger foot.exe
+00:43:18.793: 	Bit depth: 24
+00:43:18.793: 	Found proper GLXFBConfig (in 9): yes
+00:43:18.793: 
+00:43:20.786: Starting recording due to hotkey
+00:43:20.788: ---------------------------------
+00:43:20.788: [NVENC encoder: 'recording_h264'] settings:
+00:43:20.788: 	rate_control: CQP
+00:43:20.788: 	bitrate:      0
+00:43:20.788: 	cqp:          19
+00:43:20.788: 	keyint:       250
+00:43:20.788: 	preset:       hp
+00:43:20.788: 	profile:      high
+00:43:20.788: 	width:        1920
+00:43:20.788: 	height:       1080
+00:43:20.788: 	2-pass:       false
+00:43:20.788: 	b-frames:     2
+00:43:20.788: 	psycho-aq:    0
+00:43:20.788: 	GPU:          0
+00:43:20.788: 
+00:43:20.962: libfdk_aac encoder created
+00:43:20.962: libfdk_aac bitrate: 160, channels: 2
+00:43:20.966: ==== Recording Start ===============================================
+00:43:20.966: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-43-20.mkv'...
+00:43:28.865: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:43:28.867: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:43:28.867: 	title: Anger Foot
+00:43:28.867: 	class: anger foot.exe
+00:43:28.867: 	Bit depth: 24
+00:43:28.867: 	Found proper GLXFBConfig (in 9): yes
+00:43:28.867: 
+00:43:49.562: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:43:49.564: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:43:49.564: 	title: Anger Foot
+00:43:49.564: 	class: anger foot.exe
+00:43:49.564: 	Bit depth: 24
+00:43:49.564: 	Found proper GLXFBConfig (in 9): yes
+00:43:49.564: 
+00:44:33.635: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:44:33.637: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:44:33.637: 	title: Anger Foot
+00:44:33.637: 	class: anger foot.exe
+00:44:33.637: 	Bit depth: 24
+00:44:33.637: 	Found proper GLXFBConfig (in 9): yes
+00:44:33.637: 
+00:44:34.423: Stopping recording due to hotkey
+00:44:34.657: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-43-20.mkv' stopped
+00:44:34.657: Output 'adv_file_output': stopping
+00:44:34.657: Output 'adv_file_output': Total frames output: 4409
+00:44:34.657: Output 'adv_file_output': Total drawn frames: 4421
+00:44:34.657: ==== Recording Stop ================================================
+00:44:34.716: libfdk_aac encoder destroyed
+00:45:08.272: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:45:08.273: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:45:08.273: 	title: Anger Foot
+00:45:08.273: 	class: anger foot.exe
+00:45:08.273: 	Bit depth: 24
+00:45:08.273: 	Found proper GLXFBConfig (in 9): yes
+00:45:08.273: 
+00:45:10.007: Starting recording due to hotkey
+00:45:10.009: ---------------------------------
+00:45:10.009: [NVENC encoder: 'recording_h264'] settings:
+00:45:10.009: 	rate_control: CQP
+00:45:10.009: 	bitrate:      0
+00:45:10.009: 	cqp:          19
+00:45:10.009: 	keyint:       250
+00:45:10.009: 	preset:       hp
+00:45:10.009: 	profile:      high
+00:45:10.009: 	width:        1920
+00:45:10.009: 	height:       1080
+00:45:10.009: 	2-pass:       false
+00:45:10.009: 	b-frames:     2
+00:45:10.009: 	psycho-aq:    0
+00:45:10.009: 	GPU:          0
+00:45:10.009: 
+00:45:10.182: libfdk_aac encoder created
+00:45:10.182: libfdk_aac bitrate: 160, channels: 2
+00:45:10.187: ==== Recording Start ===============================================
+00:45:10.187: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-45-10.mkv'...
+00:45:19.142: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:45:19.144: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:45:19.144: 	title: Anger Foot
+00:45:19.144: 	class: anger foot.exe
+00:45:19.144: 	Bit depth: 24
+00:45:19.144: 	Found proper GLXFBConfig (in 9): yes
+00:45:19.144: 
+00:45:39.615: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:45:39.617: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:45:39.617: 	title: Anger Foot
+00:45:39.617: 	class: anger foot.exe
+00:45:39.617: 	Bit depth: 24
+00:45:39.617: 	Found proper GLXFBConfig (in 9): yes
+00:45:39.617: 
+00:45:50.543: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:45:50.544: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:45:50.544: 	title: Anger Foot
+00:45:50.544: 	class: anger foot.exe
+00:45:50.544: 	Bit depth: 24
+00:45:50.544: 	Found proper GLXFBConfig (in 9): yes
+00:45:50.544: 
+00:45:51.524: Stopping recording due to hotkey
+00:45:51.731: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-45-10.mkv' stopped
+00:45:51.731: Output 'adv_file_output': stopping
+00:45:51.731: Output 'adv_file_output': Total frames output: 2481
+00:45:51.731: Output 'adv_file_output': Total drawn frames: 2492
+00:45:51.731: ==== Recording Stop ================================================
+00:45:51.794: libfdk_aac encoder destroyed
+00:45:51.857: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:45:51.859: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:45:51.859: 	title: Anger Foot
+00:45:51.859: 	class: anger foot.exe
+00:45:51.859: 	Bit depth: 24
+00:45:51.859: 	Found proper GLXFBConfig (in 9): yes
+00:45:51.859: 
+00:45:51.860: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:45:51.861: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:45:51.861: 	title: Anger Foot
+00:45:51.861: 	class: anger foot.exe
+00:45:51.861: 	Bit depth: 24
+00:45:51.861: 	Found proper GLXFBConfig (in 9): yes
+00:45:51.861: 
+00:45:56.987: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:45:56.988: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:45:56.988: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:45:56.992: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:45:56.992: 	title: Anger Foot
+00:45:56.992: 	class: anger foot.exe
+00:45:56.992: 	Bit depth: 24
+00:45:56.992: 	Found proper GLXFBConfig (in 9): yes
+00:45:56.992: 
+00:45:56.993: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:45:57.005: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:45:57.005: 	title: Anger Foot
+00:45:57.005: 	class: anger foot.exe
+00:45:57.005: 	Bit depth: 24
+00:45:57.005: 	Found proper GLXFBConfig (in 9): yes
+00:45:57.005: 
+00:45:57.008: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:45:57.010: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:45:57.010: 	title: Anger Foot
+00:45:57.010: 	class: anger foot.exe
+00:45:57.010: 	Bit depth: 24
+00:45:57.010: 	Found proper GLXFBConfig (in 9): yes
+00:45:57.010: 
+00:45:57.015: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:45:57.016: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:45:57.016: 	title: Anger Foot
+00:45:57.016: 	class: anger foot.exe
+00:45:57.016: 	Bit depth: 24
+00:45:57.016: 	Found proper GLXFBConfig (in 9): yes
+00:45:57.016: 
+00:45:57.032: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:45:57.087: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:45:57.087: 	title: Anger Foot
+00:45:57.087: 	class: anger foot.exe
+00:45:57.087: 	Bit depth: 24
+00:45:57.087: 	Found proper GLXFBConfig (in 9): yes
+00:45:57.087: 
+00:46:00.491: Starting recording due to hotkey
+00:46:00.493: ---------------------------------
+00:46:00.493: [NVENC encoder: 'recording_h264'] settings:
+00:46:00.493: 	rate_control: CQP
+00:46:00.493: 	bitrate:      0
+00:46:00.493: 	cqp:          19
+00:46:00.493: 	keyint:       250
+00:46:00.493: 	preset:       hp
+00:46:00.493: 	profile:      high
+00:46:00.493: 	width:        1920
+00:46:00.493: 	height:       1080
+00:46:00.493: 	2-pass:       false
+00:46:00.493: 	b-frames:     2
+00:46:00.493: 	psycho-aq:    0
+00:46:00.493: 	GPU:          0
+00:46:00.493: 
+00:46:00.663: libfdk_aac encoder created
+00:46:00.663: libfdk_aac bitrate: 160, channels: 2
+00:46:00.667: ==== Recording Start ===============================================
+00:46:00.667: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-46-00.mkv'...
+00:46:19.712: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:46:19.713: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:46:19.713: 	title: Anger Foot
+00:46:19.713: 	class: anger foot.exe
+00:46:19.713: 	Bit depth: 24
+00:46:19.713: 	Found proper GLXFBConfig (in 9): yes
+00:46:19.713: 
+00:46:41.626: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:46:41.628: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:46:41.628: 	title: Anger Foot
+00:46:41.628: 	class: anger foot.exe
+00:46:41.628: 	Bit depth: 24
+00:46:41.628: 	Found proper GLXFBConfig (in 9): yes
+00:46:41.628: 
+00:46:42.643: Stopping recording due to hotkey
+00:46:42.852: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-46-00.mkv' stopped
+00:46:42.852: Output 'adv_file_output': stopping
+00:46:42.852: Output 'adv_file_output': Total frames output: 2520
+00:46:42.852: Output 'adv_file_output': Total drawn frames: 2531
+00:46:42.853: ==== Recording Stop ================================================
+00:46:42.912: libfdk_aac encoder destroyed
+00:46:43.499: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:46:43.500: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:46:43.500: 	title: Anger Foot
+00:46:43.500: 	class: anger foot.exe
+00:46:43.500: 	Bit depth: 24
+00:46:43.500: 	Found proper GLXFBConfig (in 9): yes
+00:46:43.500: 
+00:46:48.569: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:46:48.569: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:46:48.569: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:46:48.573: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:46:48.573: 	title: Anger Foot
+00:46:48.573: 	class: anger foot.exe
+00:46:48.573: 	Bit depth: 24
+00:46:48.573: 	Found proper GLXFBConfig (in 9): yes
+00:46:48.573: 
+00:46:48.574: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:46:48.587: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:46:48.587: 	title: Anger Foot
+00:46:48.587: 	class: anger foot.exe
+00:46:48.587: 	Bit depth: 24
+00:46:48.587: 	Found proper GLXFBConfig (in 9): yes
+00:46:48.587: 
+00:46:48.588: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:46:48.589: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:46:48.589: 	title: Anger Foot
+00:46:48.589: 	class: anger foot.exe
+00:46:48.589: 	Bit depth: 24
+00:46:48.589: 	Found proper GLXFBConfig (in 9): yes
+00:46:48.589: 
+00:46:48.598: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:46:48.606: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:46:48.606: 	title: Anger Foot
+00:46:48.606: 	class: anger foot.exe
+00:46:48.606: 	Bit depth: 24
+00:46:48.606: 	Found proper GLXFBConfig (in 9): yes
+00:46:48.606: 
+00:46:48.615: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:46:48.668: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:46:48.668: 	title: Anger Foot
+00:46:48.668: 	class: anger foot.exe
+00:46:48.668: 	Bit depth: 24
+00:46:48.668: 	Found proper GLXFBConfig (in 9): yes
+00:46:48.668: 
+00:46:50.990: Starting recording due to hotkey
+00:46:50.992: ---------------------------------
+00:46:50.992: [NVENC encoder: 'recording_h264'] settings:
+00:46:50.992: 	rate_control: CQP
+00:46:50.992: 	bitrate:      0
+00:46:50.992: 	cqp:          19
+00:46:50.992: 	keyint:       250
+00:46:50.992: 	preset:       hp
+00:46:50.992: 	profile:      high
+00:46:50.992: 	width:        1920
+00:46:50.992: 	height:       1080
+00:46:50.992: 	2-pass:       false
+00:46:50.992: 	b-frames:     2
+00:46:50.992: 	psycho-aq:    0
+00:46:50.992: 	GPU:          0
+00:46:50.992: 
+00:46:51.164: libfdk_aac encoder created
+00:46:51.164: libfdk_aac bitrate: 160, channels: 2
+00:46:51.169: ==== Recording Start ===============================================
+00:46:51.169: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-46-50.mkv'...
+00:46:57.275: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:46:57.277: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:46:57.277: 	title: Anger Foot
+00:46:57.277: 	class: anger foot.exe
+00:46:57.277: 	Bit depth: 24
+00:46:57.277: 	Found proper GLXFBConfig (in 9): yes
+00:46:57.277: 
+00:47:05.582: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:47:05.583: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:47:05.583: 	title: Anger Foot
+00:47:05.583: 	class: anger foot.exe
+00:47:05.583: 	Bit depth: 24
+00:47:05.583: 	Found proper GLXFBConfig (in 9): yes
+00:47:05.583: 
+00:47:27.851: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:47:27.853: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:47:27.853: 	title: Anger Foot
+00:47:27.853: 	class: anger foot.exe
+00:47:27.853: 	Bit depth: 24
+00:47:27.853: 	Found proper GLXFBConfig (in 9): yes
+00:47:27.853: 
+00:47:28.669: Stopping recording due to hotkey
+00:47:28.908: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-46-50.mkv' stopped
+00:47:28.908: Output 'adv_file_output': stopping
+00:47:28.908: Output 'adv_file_output': Total frames output: 2252
+00:47:28.908: Output 'adv_file_output': Total drawn frames: 2263
+00:47:28.916: ==== Recording Stop ================================================
+00:47:28.916: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:47:28.922: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:47:28.922: 	title: Anger Foot
+00:47:28.922: 	class: anger foot.exe
+00:47:28.922: 	Bit depth: 24
+00:47:28.922: 	Found proper GLXFBConfig (in 9): yes
+00:47:28.922: 
+00:47:28.926: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:47:28.928: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:47:28.928: 	title: Anger Foot
+00:47:28.928: 	class: anger foot.exe
+00:47:28.928: 	Bit depth: 24
+00:47:28.928: 	Found proper GLXFBConfig (in 9): yes
+00:47:28.928: 
+00:47:28.954: libfdk_aac encoder destroyed
+00:47:37.400: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:47:37.400: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:47:37.400: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:47:37.404: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:47:37.404: 	title: Anger Foot
+00:47:37.404: 	class: anger foot.exe
+00:47:37.404: 	Bit depth: 24
+00:47:37.404: 	Found proper GLXFBConfig (in 9): yes
+00:47:37.404: 
+00:47:37.405: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:47:37.418: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:47:37.418: 	title: Anger Foot
+00:47:37.418: 	class: anger foot.exe
+00:47:37.418: 	Bit depth: 24
+00:47:37.418: 	Found proper GLXFBConfig (in 9): yes
+00:47:37.418: 
+00:47:37.419: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:47:37.422: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:47:37.422: 	title: Anger Foot
+00:47:37.422: 	class: anger foot.exe
+00:47:37.422: 	Bit depth: 24
+00:47:37.422: 	Found proper GLXFBConfig (in 9): yes
+00:47:37.422: 
+00:47:37.432: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:47:37.436: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:47:37.436: 	title: Anger Foot
+00:47:37.436: 	class: anger foot.exe
+00:47:37.436: 	Bit depth: 24
+00:47:37.436: 	Found proper GLXFBConfig (in 9): yes
+00:47:37.436: 
+00:47:37.448: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:47:37.515: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:47:37.515: 	title: Anger Foot
+00:47:37.515: 	class: anger foot.exe
+00:47:37.515: 	Bit depth: 24
+00:47:37.515: 	Found proper GLXFBConfig (in 9): yes
+00:47:37.515: 
+00:47:38.957: Starting recording due to hotkey
+00:47:38.960: ---------------------------------
+00:47:38.960: [NVENC encoder: 'recording_h264'] settings:
+00:47:38.960: 	rate_control: CQP
+00:47:38.960: 	bitrate:      0
+00:47:38.960: 	cqp:          19
+00:47:38.960: 	keyint:       250
+00:47:38.960: 	preset:       hp
+00:47:38.960: 	profile:      high
+00:47:38.960: 	width:        1920
+00:47:38.960: 	height:       1080
+00:47:38.960: 	2-pass:       false
+00:47:38.960: 	b-frames:     2
+00:47:38.960: 	psycho-aq:    0
+00:47:38.960: 	GPU:          0
+00:47:38.960: 
+00:47:39.132: libfdk_aac encoder created
+00:47:39.132: libfdk_aac bitrate: 160, channels: 2
+00:47:39.136: ==== Recording Start ===============================================
+00:47:39.136: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-47-38.mkv'...
+00:47:58.506: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:47:58.507: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:47:58.507: 	title: Anger Foot
+00:47:58.507: 	class: anger foot.exe
+00:47:58.507: 	Bit depth: 24
+00:47:58.507: 	Found proper GLXFBConfig (in 9): yes
+00:47:58.507: 
+00:48:10.459: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:48:10.461: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:48:10.461: 	title: Anger Foot
+00:48:10.461: 	class: anger foot.exe
+00:48:10.461: 	Bit depth: 24
+00:48:10.461: 	Found proper GLXFBConfig (in 9): yes
+00:48:10.461: 
+00:48:26.103: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:48:26.105: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:48:26.105: 	title: Anger Foot
+00:48:26.105: 	class: anger foot.exe
+00:48:26.105: 	Bit depth: 24
+00:48:26.105: 	Found proper GLXFBConfig (in 9): yes
+00:48:26.105: 
+00:48:27.084: Stopping recording due to hotkey
+00:48:27.316: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:48:27.318: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:48:27.318: 	title: Anger Foot
+00:48:27.318: 	class: anger foot.exe
+00:48:27.318: 	Bit depth: 24
+00:48:27.318: 	Found proper GLXFBConfig (in 9): yes
+00:48:27.318: 
+00:48:27.321: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:48:27.324: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:48:27.324: 	title: Anger Foot
+00:48:27.324: 	class: anger foot.exe
+00:48:27.324: 	Bit depth: 24
+00:48:27.324: 	Found proper GLXFBConfig (in 9): yes
+00:48:27.324: 
+00:48:27.333: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-47-38.mkv' stopped
+00:48:27.333: Output 'adv_file_output': stopping
+00:48:27.333: Output 'adv_file_output': Total frames output: 2878
+00:48:27.333: Output 'adv_file_output': Total drawn frames: 2891 (2892 attempted)
+00:48:27.333: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 1 (0.0%)
+00:48:27.333: ==== Recording Stop ================================================
+00:48:27.384: libfdk_aac encoder destroyed
+00:48:32.913: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:48:32.914: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:48:32.914: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:48:32.918: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:48:32.918: 	title: Anger Foot
+00:48:32.918: 	class: anger foot.exe
+00:48:32.918: 	Bit depth: 24
+00:48:32.918: 	Found proper GLXFBConfig (in 9): yes
+00:48:32.918: 
+00:48:32.919: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:48:32.932: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:48:32.932: 	title: Anger Foot
+00:48:32.932: 	class: anger foot.exe
+00:48:32.932: 	Bit depth: 24
+00:48:32.932: 	Found proper GLXFBConfig (in 9): yes
+00:48:32.932: 
+00:48:32.934: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:48:32.936: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:48:32.936: 	title: Anger Foot
+00:48:32.936: 	class: anger foot.exe
+00:48:32.936: 	Bit depth: 24
+00:48:32.936: 	Found proper GLXFBConfig (in 9): yes
+00:48:32.936: 
+00:48:32.949: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:48:32.950: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:48:32.950: 	title: Anger Foot
+00:48:32.950: 	class: anger foot.exe
+00:48:32.950: 	Bit depth: 24
+00:48:32.950: 	Found proper GLXFBConfig (in 9): yes
+00:48:32.950: 
+00:48:34.121: Starting recording due to hotkey
+00:48:34.123: ---------------------------------
+00:48:34.123: [NVENC encoder: 'recording_h264'] settings:
+00:48:34.123: 	rate_control: CQP
+00:48:34.123: 	bitrate:      0
+00:48:34.123: 	cqp:          19
+00:48:34.123: 	keyint:       250
+00:48:34.123: 	preset:       hp
+00:48:34.123: 	profile:      high
+00:48:34.123: 	width:        1920
+00:48:34.123: 	height:       1080
+00:48:34.123: 	2-pass:       false
+00:48:34.123: 	b-frames:     2
+00:48:34.123: 	psycho-aq:    0
+00:48:34.123: 	GPU:          0
+00:48:34.123: 
+00:48:34.301: libfdk_aac encoder created
+00:48:34.301: libfdk_aac bitrate: 160, channels: 2
+00:48:34.306: ==== Recording Start ===============================================
+00:48:34.306: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-48-34.mkv'...
+00:48:43.069: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:48:43.071: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:48:43.071: 	title: Anger Foot
+00:48:43.071: 	class: anger foot.exe
+00:48:43.071: 	Bit depth: 24
+00:48:43.071: 	Found proper GLXFBConfig (in 9): yes
+00:48:43.071: 
+00:50:03.884: Stopping recording due to hotkey
+00:50:04.113: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-48-34.mkv' stopped
+00:50:04.113: Output 'adv_file_output': stopping
+00:50:04.113: Output 'adv_file_output': Total frames output: 5376
+00:50:04.113: Output 'adv_file_output': Total drawn frames: 5388
+00:50:04.114: ==== Recording Stop ================================================
+00:50:04.181: libfdk_aac encoder destroyed
+00:50:05.246: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:50:05.248: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:50:05.248: 	title: Anger Foot
+00:50:05.248: 	class: anger foot.exe
+00:50:05.248: 	Bit depth: 24
+00:50:05.248: 	Found proper GLXFBConfig (in 9): yes
+00:50:05.248: 
+00:50:07.535: Starting recording due to hotkey
+00:50:07.537: ---------------------------------
+00:50:07.537: [NVENC encoder: 'recording_h264'] settings:
+00:50:07.537: 	rate_control: CQP
+00:50:07.537: 	bitrate:      0
+00:50:07.537: 	cqp:          19
+00:50:07.537: 	keyint:       250
+00:50:07.537: 	preset:       hp
+00:50:07.537: 	profile:      high
+00:50:07.537: 	width:        1920
+00:50:07.537: 	height:       1080
+00:50:07.537: 	2-pass:       false
+00:50:07.537: 	b-frames:     2
+00:50:07.537: 	psycho-aq:    0
+00:50:07.537: 	GPU:          0
+00:50:07.537: 
+00:50:07.719: libfdk_aac encoder created
+00:50:07.719: libfdk_aac bitrate: 160, channels: 2
+00:50:07.721: ==== Recording Start ===============================================
+00:50:07.721: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-50-07.mkv'...
+00:50:22.572: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:50:22.573: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:50:22.573: 	title: Anger Foot
+00:50:22.573: 	class: anger foot.exe
+00:50:22.573: 	Bit depth: 24
+00:50:22.573: 	Found proper GLXFBConfig (in 9): yes
+00:50:22.573: 
+00:50:22.849: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:50:22.851: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:50:22.851: 	title: Anger Foot
+00:50:22.851: 	class: anger foot.exe
+00:50:22.851: 	Bit depth: 24
+00:50:22.851: 	Found proper GLXFBConfig (in 9): yes
+00:50:22.851: 
+00:50:36.384: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:50:36.386: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:50:36.386: 	title: Anger Foot
+00:50:36.386: 	class: anger foot.exe
+00:50:36.386: 	Bit depth: 24
+00:50:36.386: 	Found proper GLXFBConfig (in 9): yes
+00:50:36.386: 
+00:50:46.285: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:50:46.287: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:50:46.287: 	title: Anger Foot
+00:50:46.287: 	class: anger foot.exe
+00:50:46.287: 	Bit depth: 24
+00:50:46.287: 	Found proper GLXFBConfig (in 9): yes
+00:50:46.287: 
+00:50:55.690: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:50:55.692: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:50:55.692: 	title: Anger Foot
+00:50:55.692: 	class: anger foot.exe
+00:50:55.692: 	Bit depth: 24
+00:50:55.692: 	Found proper GLXFBConfig (in 9): yes
+00:50:55.692: 
+00:50:56.118: Stopping recording due to hotkey
+00:50:56.350: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-50-07.mkv' stopped
+00:50:56.350: Output 'adv_file_output': stopping
+00:50:56.350: Output 'adv_file_output': Total frames output: 2905
+00:50:56.350: Output 'adv_file_output': Total drawn frames: 2918
+00:50:56.350: ==== Recording Stop ================================================
+00:50:56.411: libfdk_aac encoder destroyed
+00:50:57.686: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:50:57.689: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:50:57.689: 	title: Anger Foot
+00:50:57.689: 	class: anger foot.exe
+00:50:57.689: 	Bit depth: 24
+00:50:57.689: 	Found proper GLXFBConfig (in 9): yes
+00:50:57.689: 
+00:50:57.698: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:50:57.699: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:50:57.699: 	title: Anger Foot
+00:50:57.699: 	class: anger foot.exe
+00:50:57.699: 	Bit depth: 24
+00:50:57.699: 	Found proper GLXFBConfig (in 9): yes
+00:50:57.699: 
+00:51:02.970: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:02.970: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:51:02.970: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:51:02.971: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:02.971: 	title: Anger Foot
+00:51:02.971: 	class: anger foot.exe
+00:51:02.971: 	Bit depth: 24
+00:51:02.971: 	Found proper GLXFBConfig (in 9): yes
+00:51:02.971: 
+00:51:02.991: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:02.991: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:51:02.992: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:02.992: 	title: Anger Foot
+00:51:02.992: 	class: anger foot.exe
+00:51:02.992: 	Bit depth: 24
+00:51:02.992: 	Found proper GLXFBConfig (in 9): yes
+00:51:02.992: 
+00:51:02.998: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:02.998: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:51:02.999: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:02.999: 	title: Anger Foot
+00:51:02.999: 	class: anger foot.exe
+00:51:02.999: 	Bit depth: 24
+00:51:02.999: 	Found proper GLXFBConfig (in 9): yes
+00:51:02.999: 
+00:51:03.015: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:03.015: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:51:03.015: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:03.015: 	title: Anger Foot
+00:51:03.015: 	class: anger foot.exe
+00:51:03.015: 	Bit depth: 24
+00:51:03.015: 	Found proper GLXFBConfig (in 9): yes
+00:51:03.015: 
+00:51:08.585: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:08.586: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:51:08.589: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:08.589: 	title: Anger Foot
+00:51:08.589: 	class: anger foot.exe
+00:51:08.589: 	Bit depth: 24
+00:51:08.589: 	Found proper GLXFBConfig (in 9): yes
+00:51:08.589: 
+00:51:08.598: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:08.599: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:08.599: 	title: Anger Foot
+00:51:08.599: 	class: anger foot.exe
+00:51:08.599: 	Bit depth: 24
+00:51:08.599: 	Found proper GLXFBConfig (in 9): yes
+00:51:08.599: 
+00:51:13.517: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:13.518: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:51:13.518: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:51:13.518: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:13.518: 	title: Anger Foot
+00:51:13.518: 	class: anger foot.exe
+00:51:13.518: 	Bit depth: 24
+00:51:13.518: 	Found proper GLXFBConfig (in 9): yes
+00:51:13.518: 
+00:51:13.532: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:13.532: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:51:13.532: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:13.532: 	title: Anger Foot
+00:51:13.532: 	class: anger foot.exe
+00:51:13.532: 	Bit depth: 24
+00:51:13.532: 	Found proper GLXFBConfig (in 9): yes
+00:51:13.532: 
+00:51:13.548: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:13.549: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:51:13.549: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:13.549: 	title: Anger Foot
+00:51:13.549: 	class: anger foot.exe
+00:51:13.549: 	Bit depth: 24
+00:51:13.549: 	Found proper GLXFBConfig (in 9): yes
+00:51:13.549: 
+00:51:15.121: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:15.121: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:51:15.125: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:15.125: 	title: Anger Foot
+00:51:15.125: 	class: anger foot.exe
+00:51:15.125: 	Bit depth: 24
+00:51:15.125: 	Found proper GLXFBConfig (in 9): yes
+00:51:15.125: 
+00:51:15.129: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:15.133: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:15.133: 	title: Anger Foot
+00:51:15.133: 	class: anger foot.exe
+00:51:15.133: 	Bit depth: 24
+00:51:15.133: 	Found proper GLXFBConfig (in 9): yes
+00:51:15.133: 
+00:51:30.034: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:30.034: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:51:30.034: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:51:30.041: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:30.041: 	title: Desktop — Plasma
+00:51:30.041: 	class: plasmashell
+00:51:30.041: 	Bit depth: 32
+00:51:30.041: 	Found proper GLXFBConfig (in 9): yes
+00:51:30.041: 
+00:51:30.832: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:30.838: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:30.838: 	title: Anger Foot
+00:51:30.838: 	class: anger foot.exe
+00:51:30.838: 	Bit depth: 24
+00:51:30.838: 	Found proper GLXFBConfig (in 9): yes
+00:51:30.838: 
+00:51:31.971: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:31.972: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:51:31.972: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:51:31.975: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:31.975: 	title: Anger Foot
+00:51:31.975: 	class: anger foot.exe
+00:51:31.975: 	Bit depth: 24
+00:51:31.975: 	Found proper GLXFBConfig (in 9): yes
+00:51:31.975: 
+00:51:31.976: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:31.979: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:31.979: 	title: Anger Foot
+00:51:31.979: 	class: anger foot.exe
+00:51:31.979: 	Bit depth: 24
+00:51:31.979: 	Found proper GLXFBConfig (in 9): yes
+00:51:31.979: 
+00:51:31.982: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:31.984: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:31.984: 	title: Anger Foot
+00:51:31.984: 	class: anger foot.exe
+00:51:31.984: 	Bit depth: 24
+00:51:31.984: 	Found proper GLXFBConfig (in 9): yes
+00:51:31.984: 
+00:51:31.998: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:32.004: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:32.004: 	title: Anger Foot
+00:51:32.004: 	class: anger foot.exe
+00:51:32.004: 	Bit depth: 24
+00:51:32.004: 	Found proper GLXFBConfig (in 9): yes
+00:51:32.004: 
+00:51:34.209: Starting recording due to hotkey
+00:51:34.211: ---------------------------------
+00:51:34.211: [NVENC encoder: 'recording_h264'] settings:
+00:51:34.211: 	rate_control: CQP
+00:51:34.211: 	bitrate:      0
+00:51:34.211: 	cqp:          19
+00:51:34.211: 	keyint:       250
+00:51:34.211: 	preset:       hp
+00:51:34.211: 	profile:      high
+00:51:34.211: 	width:        1920
+00:51:34.211: 	height:       1080
+00:51:34.211: 	2-pass:       false
+00:51:34.211: 	b-frames:     2
+00:51:34.211: 	psycho-aq:    0
+00:51:34.211: 	GPU:          0
+00:51:34.211: 
+00:51:34.382: libfdk_aac encoder created
+00:51:34.382: libfdk_aac bitrate: 160, channels: 2
+00:51:34.387: ==== Recording Start ===============================================
+00:51:34.387: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-51-34.mkv'...
+00:51:50.921: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:50.923: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:50.923: 	title: Anger Foot
+00:51:50.923: 	class: anger foot.exe
+00:51:50.923: 	Bit depth: 24
+00:51:50.923: 	Found proper GLXFBConfig (in 9): yes
+00:51:50.923: 
+00:51:58.582: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:51:58.583: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:51:58.583: 	title: Anger Foot
+00:51:58.583: 	class: anger foot.exe
+00:51:58.583: 	Bit depth: 24
+00:51:58.583: 	Found proper GLXFBConfig (in 9): yes
+00:51:58.583: 
+00:52:12.904: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:52:12.906: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:52:12.906: 	title: Anger Foot
+00:52:12.906: 	class: anger foot.exe
+00:52:12.906: 	Bit depth: 24
+00:52:12.906: 	Found proper GLXFBConfig (in 9): yes
+00:52:12.906: 
+00:52:30.546: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:52:30.548: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:52:30.548: 	title: Anger Foot
+00:52:30.548: 	class: anger foot.exe
+00:52:30.548: 	Bit depth: 24
+00:52:30.548: 	Found proper GLXFBConfig (in 9): yes
+00:52:30.548: 
+00:52:33.095: Stopping recording due to hotkey
+00:52:33.300: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-51-34.mkv' stopped
+00:52:33.300: Output 'adv_file_output': stopping
+00:52:33.300: Output 'adv_file_output': Total frames output: 3523
+00:52:33.300: Output 'adv_file_output': Total drawn frames: 3535
+00:52:33.300: ==== Recording Stop ================================================
+00:52:33.360: libfdk_aac encoder destroyed
+00:52:36.299: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:52:36.299: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:52:36.299: 	title: Anger Foot
+00:52:36.299: 	class: anger foot.exe
+00:52:36.299: 	Bit depth: 24
+00:52:36.299: 	Found proper GLXFBConfig (in 9): yes
+00:52:36.299: 
+00:52:43.168: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:52:43.168: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:52:43.168: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:52:43.183: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:52:43.183: 	title: Anger Foot
+00:52:43.183: 	class: anger foot.exe
+00:52:43.183: 	Bit depth: 24
+00:52:43.183: 	Found proper GLXFBConfig (in 9): yes
+00:52:43.183: 
+00:52:43.184: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:52:43.187: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:52:43.187: 	title: Anger Foot
+00:52:43.187: 	class: anger foot.exe
+00:52:43.187: 	Bit depth: 24
+00:52:43.187: 	Found proper GLXFBConfig (in 9): yes
+00:52:43.187: 
+00:52:43.199: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:52:43.202: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:52:43.202: 	title: Anger Foot
+00:52:43.202: 	class: anger foot.exe
+00:52:43.202: 	Bit depth: 24
+00:52:43.202: 	Found proper GLXFBConfig (in 9): yes
+00:52:43.202: 
+00:52:43.215: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:52:43.254: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:52:43.254: 	title: Anger Foot
+00:52:43.254: 	class: anger foot.exe
+00:52:43.254: 	Bit depth: 24
+00:52:43.254: 	Found proper GLXFBConfig (in 9): yes
+00:52:43.254: 
+00:52:46.419: Starting recording due to hotkey
+00:52:46.421: ---------------------------------
+00:52:46.421: [NVENC encoder: 'recording_h264'] settings:
+00:52:46.421: 	rate_control: CQP
+00:52:46.421: 	bitrate:      0
+00:52:46.421: 	cqp:          19
+00:52:46.421: 	keyint:       250
+00:52:46.421: 	preset:       hp
+00:52:46.421: 	profile:      high
+00:52:46.421: 	width:        1920
+00:52:46.421: 	height:       1080
+00:52:46.421: 	2-pass:       false
+00:52:46.421: 	b-frames:     2
+00:52:46.421: 	psycho-aq:    0
+00:52:46.421: 	GPU:          0
+00:52:46.421: 
+00:52:46.601: libfdk_aac encoder created
+00:52:46.601: libfdk_aac bitrate: 160, channels: 2
+00:52:46.606: ==== Recording Start ===============================================
+00:52:46.606: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-52-46.mkv'...
+00:53:01.228: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:53:01.230: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:53:01.230: 	title: Anger Foot
+00:53:01.230: 	class: anger foot.exe
+00:53:01.230: 	Bit depth: 24
+00:53:01.230: 	Found proper GLXFBConfig (in 9): yes
+00:53:01.230: 
+00:53:08.152: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:53:08.154: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:53:08.154: 	title: Anger Foot
+00:53:08.154: 	class: anger foot.exe
+00:53:08.154: 	Bit depth: 24
+00:53:08.154: 	Found proper GLXFBConfig (in 9): yes
+00:53:08.154: 
+00:53:23.256: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:53:23.258: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:53:23.258: 	title: Anger Foot
+00:53:23.258: 	class: anger foot.exe
+00:53:23.258: 	Bit depth: 24
+00:53:23.258: 	Found proper GLXFBConfig (in 9): yes
+00:53:23.258: 
+00:53:33.007: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:53:33.009: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:53:33.009: 	title: Anger Foot
+00:53:33.009: 	class: anger foot.exe
+00:53:33.009: 	Bit depth: 24
+00:53:33.009: 	Found proper GLXFBConfig (in 9): yes
+00:53:33.009: 
+00:53:33.863: Stopping recording due to hotkey
+00:53:34.070: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-52-46.mkv' stopped
+00:53:34.070: Output 'adv_file_output': stopping
+00:53:34.070: Output 'adv_file_output': Total frames output: 2836
+00:53:34.070: Output 'adv_file_output': Total drawn frames: 2848
+00:53:34.070: ==== Recording Stop ================================================
+00:53:34.129: libfdk_aac encoder destroyed
+00:53:36.479: Starting recording due to hotkey
+00:53:36.481: ---------------------------------
+00:53:36.481: [NVENC encoder: 'recording_h264'] settings:
+00:53:36.481: 	rate_control: CQP
+00:53:36.481: 	bitrate:      0
+00:53:36.481: 	cqp:          19
+00:53:36.481: 	keyint:       250
+00:53:36.481: 	preset:       hp
+00:53:36.481: 	profile:      high
+00:53:36.481: 	width:        1920
+00:53:36.481: 	height:       1080
+00:53:36.481: 	2-pass:       false
+00:53:36.481: 	b-frames:     2
+00:53:36.481: 	psycho-aq:    0
+00:53:36.481: 	GPU:          0
+00:53:36.481: 
+00:53:36.657: libfdk_aac encoder created
+00:53:36.657: libfdk_aac bitrate: 160, channels: 2
+00:53:36.659: ==== Recording Start ===============================================
+00:53:36.659: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-53-36.mkv'...
+00:53:49.759: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:53:49.761: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:53:49.761: 	title: Anger Foot
+00:53:49.761: 	class: anger foot.exe
+00:53:49.761: 	Bit depth: 24
+00:53:49.761: 	Found proper GLXFBConfig (in 9): yes
+00:53:49.761: 
+00:54:03.233: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:54:03.235: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:54:03.235: 	title: Anger Foot
+00:54:03.235: 	class: anger foot.exe
+00:54:03.235: 	Bit depth: 24
+00:54:03.235: 	Found proper GLXFBConfig (in 9): yes
+00:54:03.235: 
+00:54:18.809: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:54:18.810: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:54:18.810: 	title: Anger Foot
+00:54:18.810: 	class: anger foot.exe
+00:54:18.810: 	Bit depth: 24
+00:54:18.810: 	Found proper GLXFBConfig (in 9): yes
+00:54:18.810: 
+00:54:19.890: Stopping recording due to hotkey
+00:54:20.094: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-53-36.mkv' stopped
+00:54:20.094: Output 'adv_file_output': stopping
+00:54:20.094: Output 'adv_file_output': Total frames output: 2595
+00:54:20.094: Output 'adv_file_output': Total drawn frames: 2606
+00:54:20.094: ==== Recording Stop ================================================
+00:54:20.161: libfdk_aac encoder destroyed
+00:54:21.299: Starting recording due to hotkey
+00:54:21.301: ---------------------------------
+00:54:21.301: [NVENC encoder: 'recording_h264'] settings:
+00:54:21.301: 	rate_control: CQP
+00:54:21.301: 	bitrate:      0
+00:54:21.301: 	cqp:          19
+00:54:21.301: 	keyint:       250
+00:54:21.301: 	preset:       hp
+00:54:21.301: 	profile:      high
+00:54:21.301: 	width:        1920
+00:54:21.301: 	height:       1080
+00:54:21.301: 	2-pass:       false
+00:54:21.301: 	b-frames:     2
+00:54:21.301: 	psycho-aq:    0
+00:54:21.301: 	GPU:          0
+00:54:21.301: 
+00:54:21.472: libfdk_aac encoder created
+00:54:21.472: libfdk_aac bitrate: 160, channels: 2
+00:54:21.473: ==== Recording Start ===============================================
+00:54:21.473: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-54-21.mkv'...
+00:54:27.830: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:54:27.832: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:54:27.832: 	title: Anger Foot
+00:54:27.832: 	class: anger foot.exe
+00:54:27.832: 	Bit depth: 24
+00:54:27.832: 	Found proper GLXFBConfig (in 9): yes
+00:54:27.832: 
+00:54:44.189: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:54:44.190: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:54:44.190: 	title: Anger Foot
+00:54:44.190: 	class: anger foot.exe
+00:54:44.190: 	Bit depth: 24
+00:54:44.190: 	Found proper GLXFBConfig (in 9): yes
+00:54:44.190: 
+00:54:44.873: Stopping recording due to hotkey
+00:54:45.089: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-54-21.mkv' stopped
+00:54:45.089: Output 'adv_file_output': stopping
+00:54:45.089: Output 'adv_file_output': Total frames output: 1405
+00:54:45.089: Output 'adv_file_output': Total drawn frames: 1417
+00:54:45.089: ==== Recording Stop ================================================
+00:54:45.129: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:54:45.130: libfdk_aac encoder destroyed
+00:54:45.134: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:54:45.134: 	title: Anger Foot
+00:54:45.134: 	class: anger foot.exe
+00:54:45.134: 	Bit depth: 24
+00:54:45.134: 	Found proper GLXFBConfig (in 9): yes
+00:54:45.134: 
+00:54:45.137: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:54:45.138: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:54:45.138: 	title: Anger Foot
+00:54:45.138: 	class: anger foot.exe
+00:54:45.138: 	Bit depth: 24
+00:54:45.138: 	Found proper GLXFBConfig (in 9): yes
+00:54:45.138: 
+00:55:09.127: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:55:09.127: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:55:09.127: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:55:09.131: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:55:09.131: 	title: Anger Foot
+00:55:09.131: 	class: anger foot.exe
+00:55:09.131: 	Bit depth: 24
+00:55:09.131: 	Found proper GLXFBConfig (in 9): yes
+00:55:09.131: 
+00:55:09.132: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:55:09.136: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:55:09.136: 	title: Anger Foot
+00:55:09.136: 	class: anger foot.exe
+00:55:09.136: 	Bit depth: 24
+00:55:09.136: 	Found proper GLXFBConfig (in 9): yes
+00:55:09.136: 
+00:55:09.137: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:55:09.138: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:55:09.138: 	title: Anger Foot
+00:55:09.138: 	class: anger foot.exe
+00:55:09.138: 	Bit depth: 24
+00:55:09.138: 	Found proper GLXFBConfig (in 9): yes
+00:55:09.138: 
+00:55:09.148: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:55:09.153: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:55:09.153: 	title: Anger Foot
+00:55:09.153: 	class: anger foot.exe
+00:55:09.153: 	Bit depth: 24
+00:55:09.153: 	Found proper GLXFBConfig (in 9): yes
+00:55:09.153: 
+00:55:09.165: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:55:09.226: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:55:09.226: 	title: Anger Foot
+00:55:09.226: 	class: anger foot.exe
+00:55:09.226: 	Bit depth: 24
+00:55:09.226: 	Found proper GLXFBConfig (in 9): yes
+00:55:09.226: 
+00:55:11.249: Starting recording due to hotkey
+00:55:11.251: ---------------------------------
+00:55:11.251: [NVENC encoder: 'recording_h264'] settings:
+00:55:11.251: 	rate_control: CQP
+00:55:11.251: 	bitrate:      0
+00:55:11.251: 	cqp:          19
+00:55:11.251: 	keyint:       250
+00:55:11.251: 	preset:       hp
+00:55:11.251: 	profile:      high
+00:55:11.251: 	width:        1920
+00:55:11.251: 	height:       1080
+00:55:11.251: 	2-pass:       false
+00:55:11.251: 	b-frames:     2
+00:55:11.251: 	psycho-aq:    0
+00:55:11.251: 	GPU:          0
+00:55:11.251: 
+00:55:11.424: libfdk_aac encoder created
+00:55:11.424: libfdk_aac bitrate: 160, channels: 2
+00:55:11.428: ==== Recording Start ===============================================
+00:55:11.428: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-55-11.mkv'...
+00:55:28.823: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:55:28.824: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:55:28.824: 	title: Anger Foot
+00:55:28.824: 	class: anger foot.exe
+00:55:28.824: 	Bit depth: 24
+00:55:28.824: 	Found proper GLXFBConfig (in 9): yes
+00:55:28.824: 
+00:56:11.547: Stopping recording due to hotkey
+00:56:11.752: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-55-11.mkv' stopped
+00:56:11.752: Output 'adv_file_output': stopping
+00:56:11.752: Output 'adv_file_output': Total frames output: 3608
+00:56:11.752: Output 'adv_file_output': Total drawn frames: 3620
+00:56:11.753: ==== Recording Stop ================================================
+00:56:11.824: libfdk_aac encoder destroyed
+00:56:14.442: Starting recording due to hotkey
+00:56:14.444: ---------------------------------
+00:56:14.444: [NVENC encoder: 'recording_h264'] settings:
+00:56:14.444: 	rate_control: CQP
+00:56:14.444: 	bitrate:      0
+00:56:14.444: 	cqp:          19
+00:56:14.444: 	keyint:       250
+00:56:14.444: 	preset:       hp
+00:56:14.444: 	profile:      high
+00:56:14.444: 	width:        1920
+00:56:14.444: 	height:       1080
+00:56:14.444: 	2-pass:       false
+00:56:14.444: 	b-frames:     2
+00:56:14.444: 	psycho-aq:    0
+00:56:14.444: 	GPU:          0
+00:56:14.444: 
+00:56:14.648: libfdk_aac encoder created
+00:56:14.648: libfdk_aac bitrate: 160, channels: 2
+00:56:14.649: ==== Recording Start ===============================================
+00:56:14.649: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-56-14.mkv'...
+00:56:25.887: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:56:25.888: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:56:25.888: 	title: Anger Foot
+00:56:25.888: 	class: anger foot.exe
+00:56:25.888: 	Bit depth: 24
+00:56:25.888: 	Found proper GLXFBConfig (in 9): yes
+00:56:25.888: 
+00:56:32.566: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:56:32.567: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:56:32.567: 	title: Anger Foot
+00:56:32.567: 	class: anger foot.exe
+00:56:32.567: 	Bit depth: 24
+00:56:32.567: 	Found proper GLXFBConfig (in 9): yes
+00:56:32.567: 
+00:56:55.429: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:56:55.431: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:56:55.431: 	title: Anger Foot
+00:56:55.431: 	class: anger foot.exe
+00:56:55.431: 	Bit depth: 24
+00:56:55.431: 	Found proper GLXFBConfig (in 9): yes
+00:56:55.431: 
+00:56:56.487: Stopping recording due to hotkey
+00:56:56.702: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-56-14.mkv' stopped
+00:56:56.702: Output 'adv_file_output': stopping
+00:56:56.702: Output 'adv_file_output': Total frames output: 2511
+00:56:56.702: Output 'adv_file_output': Total drawn frames: 2523
+00:56:56.702: ==== Recording Stop ================================================
+00:56:56.767: libfdk_aac encoder destroyed
+00:57:01.668: Starting recording due to hotkey
+00:57:01.670: ---------------------------------
+00:57:01.670: [NVENC encoder: 'recording_h264'] settings:
+00:57:01.670: 	rate_control: CQP
+00:57:01.670: 	bitrate:      0
+00:57:01.670: 	cqp:          19
+00:57:01.670: 	keyint:       250
+00:57:01.670: 	preset:       hp
+00:57:01.670: 	profile:      high
+00:57:01.670: 	width:        1920
+00:57:01.670: 	height:       1080
+00:57:01.670: 	2-pass:       false
+00:57:01.670: 	b-frames:     2
+00:57:01.670: 	psycho-aq:    0
+00:57:01.670: 	GPU:          0
+00:57:01.670: 
+00:57:01.844: libfdk_aac encoder created
+00:57:01.844: libfdk_aac bitrate: 160, channels: 2
+00:57:01.849: ==== Recording Start ===============================================
+00:57:01.849: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-57-01.mkv'...
+00:57:26.815: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:57:26.817: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:57:26.817: 	title: Anger Foot
+00:57:26.817: 	class: anger foot.exe
+00:57:26.817: 	Bit depth: 24
+00:57:26.817: 	Found proper GLXFBConfig (in 9): yes
+00:57:26.817: 
+00:57:42.089: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:57:42.091: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:57:42.091: 	title: Anger Foot
+00:57:42.091: 	class: anger foot.exe
+00:57:42.091: 	Bit depth: 24
+00:57:42.091: 	Found proper GLXFBConfig (in 9): yes
+00:57:42.091: 
+00:57:52.818: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:57:52.820: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:57:52.820: 	title: Anger Foot
+00:57:52.820: 	class: anger foot.exe
+00:57:52.820: 	Bit depth: 24
+00:57:52.820: 	Found proper GLXFBConfig (in 9): yes
+00:57:52.820: 
+00:57:53.162: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:57:53.163: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:57:53.163: 	title: Anger Foot
+00:57:53.163: 	class: anger foot.exe
+00:57:53.163: 	Bit depth: 24
+00:57:53.163: 	Found proper GLXFBConfig (in 9): yes
+00:57:53.163: 
+00:58:41.868: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:58:41.869: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:58:41.869: 	title: Anger Foot
+00:58:41.869: 	class: anger foot.exe
+00:58:41.869: 	Bit depth: 24
+00:58:41.869: 	Found proper GLXFBConfig (in 9): yes
+00:58:41.869: 
+00:58:52.075: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:58:52.077: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:58:52.077: 	title: Anger Foot
+00:58:52.077: 	class: anger foot.exe
+00:58:52.077: 	Bit depth: 24
+00:58:52.077: 	Found proper GLXFBConfig (in 9): yes
+00:58:52.077: 
+00:58:53.207: Stopping recording due to hotkey
+00:58:53.416: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-57-01.mkv' stopped
+00:58:53.416: Output 'adv_file_output': stopping
+00:58:53.416: Output 'adv_file_output': Total frames output: 6683
+00:58:53.416: Output 'adv_file_output': Total drawn frames: 6694
+00:58:53.416: ==== Recording Stop ================================================
+00:58:53.478: libfdk_aac encoder destroyed
+00:58:57.949: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:58:57.957: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:58:57.957: 	title: Anger Foot
+00:58:57.957: 	class: anger foot.exe
+00:58:57.957: 	Bit depth: 24
+00:58:57.957: 	Found proper GLXFBConfig (in 9): yes
+00:58:57.957: 
+00:58:57.958: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:58:57.961: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:58:57.961: 	title: Anger Foot
+00:58:57.961: 	class: anger foot.exe
+00:58:57.961: 	Bit depth: 24
+00:58:57.961: 	Found proper GLXFBConfig (in 9): yes
+00:58:57.961: 
+00:59:03.849: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:59:03.849: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+00:59:03.849: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+00:59:03.853: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:59:03.853: 	title: Anger Foot
+00:59:03.853: 	class: anger foot.exe
+00:59:03.853: 	Bit depth: 24
+00:59:03.853: 	Found proper GLXFBConfig (in 9): yes
+00:59:03.853: 
+00:59:03.854: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:59:03.867: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:59:03.867: 	title: Anger Foot
+00:59:03.867: 	class: anger foot.exe
+00:59:03.867: 	Bit depth: 24
+00:59:03.867: 	Found proper GLXFBConfig (in 9): yes
+00:59:03.867: 
+00:59:03.868: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:59:03.870: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:59:03.870: 	title: Anger Foot
+00:59:03.870: 	class: anger foot.exe
+00:59:03.870: 	Bit depth: 24
+00:59:03.870: 	Found proper GLXFBConfig (in 9): yes
+00:59:03.870: 
+00:59:03.882: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:59:03.885: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:59:03.885: 	title: Anger Foot
+00:59:03.885: 	class: anger foot.exe
+00:59:03.885: 	Bit depth: 24
+00:59:03.885: 	Found proper GLXFBConfig (in 9): yes
+00:59:03.885: 
+00:59:03.898: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:59:03.964: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:59:03.964: 	title: Anger Foot
+00:59:03.964: 	class: anger foot.exe
+00:59:03.964: 	Bit depth: 24
+00:59:03.964: 	Found proper GLXFBConfig (in 9): yes
+00:59:03.964: 
+00:59:05.406: Starting recording due to hotkey
+00:59:05.408: ---------------------------------
+00:59:05.408: [NVENC encoder: 'recording_h264'] settings:
+00:59:05.408: 	rate_control: CQP
+00:59:05.408: 	bitrate:      0
+00:59:05.408: 	cqp:          19
+00:59:05.408: 	keyint:       250
+00:59:05.408: 	preset:       hp
+00:59:05.408: 	profile:      high
+00:59:05.408: 	width:        1920
+00:59:05.408: 	height:       1080
+00:59:05.408: 	2-pass:       false
+00:59:05.408: 	b-frames:     2
+00:59:05.408: 	psycho-aq:    0
+00:59:05.408: 	GPU:          0
+00:59:05.408: 
+00:59:05.583: libfdk_aac encoder created
+00:59:05.583: libfdk_aac bitrate: 160, channels: 2
+00:59:05.588: ==== Recording Start ===============================================
+00:59:05.588: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-59-05.mkv'...
+00:59:20.986: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:59:20.987: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:59:20.987: 	title: Anger Foot
+00:59:20.987: 	class: anger foot.exe
+00:59:20.987: 	Bit depth: 24
+00:59:20.987: 	Found proper GLXFBConfig (in 9): yes
+00:59:20.987: 
+00:59:29.350: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:59:29.352: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:59:29.352: 	title: Anger Foot
+00:59:29.352: 	class: anger foot.exe
+00:59:29.352: 	Bit depth: 24
+00:59:29.352: 	Found proper GLXFBConfig (in 9): yes
+00:59:29.352: 
+00:59:43.299: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:59:43.300: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:59:43.300: 	title: Anger Foot
+00:59:43.300: 	class: anger foot.exe
+00:59:43.300: 	Bit depth: 24
+00:59:43.300: 	Found proper GLXFBConfig (in 9): yes
+00:59:43.300: 
+00:59:58.486: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+00:59:58.488: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+00:59:58.488: 	title: Anger Foot
+00:59:58.488: 	class: anger foot.exe
+00:59:58.488: 	Bit depth: 24
+00:59:58.488: 	Found proper GLXFBConfig (in 9): yes
+00:59:58.488: 
+01:00:12.198: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:00:12.200: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:00:12.200: 	title: Anger Foot
+01:00:12.200: 	class: anger foot.exe
+01:00:12.200: 	Bit depth: 24
+01:00:12.200: 	Found proper GLXFBConfig (in 9): yes
+01:00:12.200: 
+01:00:19.879: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:00:19.880: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:00:19.880: 	title: Anger Foot
+01:00:19.880: 	class: anger foot.exe
+01:00:19.880: 	Bit depth: 24
+01:00:19.880: 	Found proper GLXFBConfig (in 9): yes
+01:00:19.880: 
+01:00:20.684: Stopping recording due to hotkey
+01:00:20.902: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 00-59-05.mkv' stopped
+01:00:20.902: Output 'adv_file_output': stopping
+01:00:20.902: Output 'adv_file_output': Total frames output: 4507
+01:00:20.902: Output 'adv_file_output': Total drawn frames: 4519
+01:00:20.902: ==== Recording Stop ================================================
+01:00:20.959: libfdk_aac encoder destroyed
+01:00:21.533: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:00:21.536: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:00:21.536: 	title: Anger Foot
+01:00:21.536: 	class: anger foot.exe
+01:00:21.536: 	Bit depth: 24
+01:00:21.536: 	Found proper GLXFBConfig (in 9): yes
+01:00:21.536: 
+01:00:21.548: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:00:21.549: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:00:21.549: 	title: Anger Foot
+01:00:21.549: 	class: anger foot.exe
+01:00:21.549: 	Bit depth: 24
+01:00:21.549: 	Found proper GLXFBConfig (in 9): yes
+01:00:21.549: 
+01:00:26.495: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:00:26.495: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+01:00:26.495: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+01:00:26.499: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:00:26.499: 	title: Anger Foot
+01:00:26.499: 	class: anger foot.exe
+01:00:26.499: 	Bit depth: 24
+01:00:26.499: 	Found proper GLXFBConfig (in 9): yes
+01:00:26.499: 
+01:00:26.501: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:00:26.504: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:00:26.504: 	title: Anger Foot
+01:00:26.504: 	class: anger foot.exe
+01:00:26.504: 	Bit depth: 24
+01:00:26.504: 	Found proper GLXFBConfig (in 9): yes
+01:00:26.504: 
+01:00:26.516: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:00:26.518: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:00:26.518: 	title: Anger Foot
+01:00:26.518: 	class: anger foot.exe
+01:00:26.518: 	Bit depth: 24
+01:00:26.518: 	Found proper GLXFBConfig (in 9): yes
+01:00:26.518: 
+01:00:26.532: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:00:26.533: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:00:26.533: 	title: Anger Foot
+01:00:26.533: 	class: anger foot.exe
+01:00:26.533: 	Bit depth: 24
+01:00:26.533: 	Found proper GLXFBConfig (in 9): yes
+01:00:26.533: 
+01:00:27.626: Starting recording due to hotkey
+01:00:27.628: ---------------------------------
+01:00:27.628: [NVENC encoder: 'recording_h264'] settings:
+01:00:27.628: 	rate_control: CQP
+01:00:27.628: 	bitrate:      0
+01:00:27.628: 	cqp:          19
+01:00:27.628: 	keyint:       250
+01:00:27.628: 	preset:       hp
+01:00:27.628: 	profile:      high
+01:00:27.628: 	width:        1920
+01:00:27.628: 	height:       1080
+01:00:27.628: 	2-pass:       false
+01:00:27.628: 	b-frames:     2
+01:00:27.628: 	psycho-aq:    0
+01:00:27.628: 	GPU:          0
+01:00:27.628: 
+01:00:27.808: libfdk_aac encoder created
+01:00:27.808: libfdk_aac bitrate: 160, channels: 2
+01:00:27.812: ==== Recording Start ===============================================
+01:00:27.812: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-00-27.mkv'...
+01:01:11.744: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:01:11.745: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:01:11.745: 	title: Anger Foot
+01:01:11.745: 	class: anger foot.exe
+01:01:11.745: 	Bit depth: 24
+01:01:11.745: 	Found proper GLXFBConfig (in 9): yes
+01:01:11.745: 
+01:01:27.896: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:01:27.898: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:01:27.898: 	title: Anger Foot
+01:01:27.898: 	class: anger foot.exe
+01:01:27.898: 	Bit depth: 24
+01:01:27.898: 	Found proper GLXFBConfig (in 9): yes
+01:01:27.898: 
+01:01:28.445: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:01:28.447: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:01:28.447: 	title: Anger Foot
+01:01:28.447: 	class: anger foot.exe
+01:01:28.447: 	Bit depth: 24
+01:01:28.447: 	Found proper GLXFBConfig (in 9): yes
+01:01:28.447: 
+01:01:54.625: Stopping recording due to hotkey
+01:01:54.835: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-00-27.mkv' stopped
+01:01:54.835: Output 'adv_file_output': stopping
+01:01:54.835: Output 'adv_file_output': Total frames output: 5210
+01:01:54.835: Output 'adv_file_output': Total drawn frames: 5222
+01:01:54.835: ==== Recording Stop ================================================
+01:01:54.887: libfdk_aac encoder destroyed
+01:02:05.015: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:02:05.018: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:02:05.018: 	title: Anger Foot
+01:02:05.018: 	class: anger foot.exe
+01:02:05.018: 	Bit depth: 24
+01:02:05.018: 	Found proper GLXFBConfig (in 9): yes
+01:02:05.018: 
+01:02:10.589: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:02:10.589: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+01:02:10.589: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+01:02:10.594: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:02:10.594: 	title: Anger Foot
+01:02:10.594: 	class: anger foot.exe
+01:02:10.594: 	Bit depth: 24
+01:02:10.594: 	Found proper GLXFBConfig (in 9): yes
+01:02:10.594: 
+01:02:10.595: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:02:10.608: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:02:10.608: 	title: Anger Foot
+01:02:10.608: 	class: anger foot.exe
+01:02:10.608: 	Bit depth: 24
+01:02:10.608: 	Found proper GLXFBConfig (in 9): yes
+01:02:10.608: 
+01:02:10.610: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:02:10.611: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:02:10.611: 	title: Anger Foot
+01:02:10.611: 	class: anger foot.exe
+01:02:10.611: 	Bit depth: 24
+01:02:10.611: 	Found proper GLXFBConfig (in 9): yes
+01:02:10.611: 
+01:02:10.671: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:02:10.712: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:02:10.712: 	title: Anger Foot
+01:02:10.712: 	class: anger foot.exe
+01:02:10.712: 	Bit depth: 24
+01:02:10.712: 	Found proper GLXFBConfig (in 9): yes
+01:02:10.712: 
+01:02:12.944: Starting recording due to hotkey
+01:02:12.946: ---------------------------------
+01:02:12.946: [NVENC encoder: 'recording_h264'] settings:
+01:02:12.946: 	rate_control: CQP
+01:02:12.946: 	bitrate:      0
+01:02:12.946: 	cqp:          19
+01:02:12.946: 	keyint:       250
+01:02:12.946: 	preset:       hp
+01:02:12.946: 	profile:      high
+01:02:12.946: 	width:        1920
+01:02:12.946: 	height:       1080
+01:02:12.946: 	2-pass:       false
+01:02:12.946: 	b-frames:     2
+01:02:12.946: 	psycho-aq:    0
+01:02:12.946: 	GPU:          0
+01:02:12.946: 
+01:02:13.111: libfdk_aac encoder created
+01:02:13.111: libfdk_aac bitrate: 160, channels: 2
+01:02:13.116: ==== Recording Start ===============================================
+01:02:13.116: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-02-12.mkv'...
+01:02:27.976: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:02:27.978: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:02:27.978: 	title: Anger Foot
+01:02:27.978: 	class: anger foot.exe
+01:02:27.978: 	Bit depth: 24
+01:02:27.978: 	Found proper GLXFBConfig (in 9): yes
+01:02:27.978: 
+01:03:12.708: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:03:12.710: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:03:12.710: 	title: Anger Foot
+01:03:12.710: 	class: anger foot.exe
+01:03:12.710: 	Bit depth: 24
+01:03:12.710: 	Found proper GLXFBConfig (in 9): yes
+01:03:12.710: 
+01:03:53.319: Stopping recording due to hotkey
+01:03:53.536: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-02-12.mkv' stopped
+01:03:53.536: Output 'adv_file_output': stopping
+01:03:53.536: Output 'adv_file_output': Total frames output: 6014
+01:03:53.536: Output 'adv_file_output': Total drawn frames: 6025
+01:03:53.536: ==== Recording Stop ================================================
+01:03:53.600: libfdk_aac encoder destroyed
+01:03:56.439: Starting recording due to hotkey
+01:03:56.441: ---------------------------------
+01:03:56.441: [NVENC encoder: 'recording_h264'] settings:
+01:03:56.441: 	rate_control: CQP
+01:03:56.441: 	bitrate:      0
+01:03:56.441: 	cqp:          19
+01:03:56.441: 	keyint:       250
+01:03:56.441: 	preset:       hp
+01:03:56.441: 	profile:      high
+01:03:56.441: 	width:        1920
+01:03:56.441: 	height:       1080
+01:03:56.441: 	2-pass:       false
+01:03:56.441: 	b-frames:     2
+01:03:56.441: 	psycho-aq:    0
+01:03:56.441: 	GPU:          0
+01:03:56.441: 
+01:03:56.634: libfdk_aac encoder created
+01:03:56.634: libfdk_aac bitrate: 160, channels: 2
+01:03:56.636: ==== Recording Start ===============================================
+01:03:56.636: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-03-56.mkv'...
+01:04:13.649: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:04:13.650: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:04:13.650: 	title: Anger Foot
+01:04:13.650: 	class: anger foot.exe
+01:04:13.650: 	Bit depth: 24
+01:04:13.650: 	Found proper GLXFBConfig (in 9): yes
+01:04:13.650: 
+01:04:19.458: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:04:19.460: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:04:19.460: 	title: Anger Foot
+01:04:19.460: 	class: anger foot.exe
+01:04:19.460: 	Bit depth: 24
+01:04:19.460: 	Found proper GLXFBConfig (in 9): yes
+01:04:19.460: 
+01:04:35.474: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:04:35.477: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:04:35.477: 	title: Anger Foot
+01:04:35.477: 	class: anger foot.exe
+01:04:35.477: 	Bit depth: 24
+01:04:35.477: 	Found proper GLXFBConfig (in 9): yes
+01:04:35.477: 
+01:04:35.907: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:04:35.909: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:04:35.909: 	title: Anger Foot
+01:04:35.909: 	class: anger foot.exe
+01:04:35.909: 	Bit depth: 24
+01:04:35.909: 	Found proper GLXFBConfig (in 9): yes
+01:04:35.909: 
+01:04:44.782: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:04:44.783: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:04:44.783: 	title: Anger Foot
+01:04:44.783: 	class: anger foot.exe
+01:04:44.783: 	Bit depth: 24
+01:04:44.783: 	Found proper GLXFBConfig (in 9): yes
+01:04:44.783: 
+01:05:20.614: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:05:20.615: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:05:20.615: 	title: Anger Foot
+01:05:20.615: 	class: anger foot.exe
+01:05:20.615: 	Bit depth: 24
+01:05:20.615: 	Found proper GLXFBConfig (in 9): yes
+01:05:20.615: 
+01:06:17.414: Stopping recording due to hotkey
+01:06:17.624: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-03-56.mkv' stopped
+01:06:17.624: Output 'adv_file_output': stopping
+01:06:17.624: Output 'adv_file_output': Total frames output: 8447
+01:06:17.624: Output 'adv_file_output': Total drawn frames: 8459
+01:06:17.624: ==== Recording Stop ================================================
+01:06:17.683: libfdk_aac encoder destroyed
+01:06:27.581: Starting recording due to hotkey
+01:06:27.584: ---------------------------------
+01:06:27.584: [NVENC encoder: 'recording_h264'] settings:
+01:06:27.584: 	rate_control: CQP
+01:06:27.584: 	bitrate:      0
+01:06:27.584: 	cqp:          19
+01:06:27.584: 	keyint:       250
+01:06:27.584: 	preset:       hp
+01:06:27.584: 	profile:      high
+01:06:27.584: 	width:        1920
+01:06:27.584: 	height:       1080
+01:06:27.584: 	2-pass:       false
+01:06:27.584: 	b-frames:     2
+01:06:27.584: 	psycho-aq:    0
+01:06:27.584: 	GPU:          0
+01:06:27.584: 
+01:06:27.771: libfdk_aac encoder created
+01:06:27.771: libfdk_aac bitrate: 160, channels: 2
+01:06:27.776: ==== Recording Start ===============================================
+01:06:27.777: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-06-27.mkv'...
+01:06:29.415: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:06:29.416: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:06:29.416: 	title: Anger Foot
+01:06:29.416: 	class: anger foot.exe
+01:06:29.416: 	Bit depth: 24
+01:06:29.416: 	Found proper GLXFBConfig (in 9): yes
+01:06:29.416: 
+01:07:08.919: Stopping recording due to hotkey
+01:07:09.136: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-06-27.mkv' stopped
+01:07:09.136: Output 'adv_file_output': stopping
+01:07:09.136: Output 'adv_file_output': Total frames output: 2470
+01:07:09.136: Output 'adv_file_output': Total drawn frames: 2482
+01:07:09.136: ==== Recording Stop ================================================
+01:07:09.187: libfdk_aac encoder destroyed
+01:07:09.854: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:07:09.854: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+01:07:09.855: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:07:09.855: 	title: Anger Foot
+01:07:09.855: 	class: anger foot.exe
+01:07:09.855: 	Bit depth: 24
+01:07:09.855: 	Found proper GLXFBConfig (in 9): yes
+01:07:09.855: 
+01:07:09.865: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:07:09.865: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+01:07:09.866: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:07:09.866: 	title: Anger Foot
+01:07:09.866: 	class: anger foot.exe
+01:07:09.866: 	Bit depth: 24
+01:07:09.866: 	Found proper GLXFBConfig (in 9): yes
+01:07:09.866: 
+01:07:18.558: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:07:18.558: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+01:07:18.558: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+01:07:18.569: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:07:18.569: 	title: Anger Foot
+01:07:18.569: 	class: anger foot.exe
+01:07:18.569: 	Bit depth: 24
+01:07:18.569: 	Found proper GLXFBConfig (in 9): yes
+01:07:18.569: 
+01:07:18.582: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:07:18.584: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:07:18.584: 	title: Anger Foot
+01:07:18.584: 	class: anger foot.exe
+01:07:18.584: 	Bit depth: 24
+01:07:18.584: 	Found proper GLXFBConfig (in 9): yes
+01:07:18.584: 
+01:07:18.615: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:07:18.624: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:07:18.624: 	title: Anger Foot
+01:07:18.624: 	class: anger foot.exe
+01:07:18.624: 	Bit depth: 24
+01:07:18.624: 	Found proper GLXFBConfig (in 9): yes
+01:07:18.624: 
+01:07:23.163: Starting recording due to hotkey
+01:07:23.164: ---------------------------------
+01:07:23.165: [NVENC encoder: 'recording_h264'] settings:
+01:07:23.165: 	rate_control: CQP
+01:07:23.165: 	bitrate:      0
+01:07:23.165: 	cqp:          19
+01:07:23.165: 	keyint:       250
+01:07:23.165: 	preset:       hp
+01:07:23.165: 	profile:      high
+01:07:23.165: 	width:        1920
+01:07:23.165: 	height:       1080
+01:07:23.165: 	2-pass:       false
+01:07:23.165: 	b-frames:     2
+01:07:23.165: 	psycho-aq:    0
+01:07:23.165: 	GPU:          0
+01:07:23.165: 
+01:07:23.348: libfdk_aac encoder created
+01:07:23.348: libfdk_aac bitrate: 160, channels: 2
+01:07:23.353: ==== Recording Start ===============================================
+01:07:23.353: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-07-23.mkv'...
+01:07:57.818: Stopping recording due to hotkey
+01:07:58.051: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-07-23.mkv' stopped
+01:07:58.051: Output 'adv_file_output': stopping
+01:07:58.051: Output 'adv_file_output': Total frames output: 2069
+01:07:58.051: Output 'adv_file_output': Total drawn frames: 2082
+01:07:58.052: ==== Recording Stop ================================================
+01:07:58.103: libfdk_aac encoder destroyed
+01:08:01.366: Starting recording due to hotkey
+01:08:01.368: ---------------------------------
+01:08:01.368: [NVENC encoder: 'recording_h264'] settings:
+01:08:01.368: 	rate_control: CQP
+01:08:01.368: 	bitrate:      0
+01:08:01.368: 	cqp:          19
+01:08:01.368: 	keyint:       250
+01:08:01.368: 	preset:       hp
+01:08:01.368: 	profile:      high
+01:08:01.368: 	width:        1920
+01:08:01.368: 	height:       1080
+01:08:01.368: 	2-pass:       false
+01:08:01.368: 	b-frames:     2
+01:08:01.368: 	psycho-aq:    0
+01:08:01.368: 	GPU:          0
+01:08:01.368: 
+01:08:01.548: libfdk_aac encoder created
+01:08:01.548: libfdk_aac bitrate: 160, channels: 2
+01:08:01.550: ==== Recording Start ===============================================
+01:08:01.550: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-08-01.mkv'...
+01:08:40.347: Stopping recording due to hotkey
+01:08:40.552: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-08-01.mkv' stopped
+01:08:40.553: Output 'adv_file_output': stopping
+01:08:40.553: Output 'adv_file_output': Total frames output: 2328
+01:08:40.553: Output 'adv_file_output': Total drawn frames: 2340
+01:08:40.553: ==== Recording Stop ================================================
+01:08:40.619: libfdk_aac encoder destroyed
+01:08:41.499: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:08:41.502: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:08:41.502: 	title: Anger Foot
+01:08:41.502: 	class: anger foot.exe
+01:08:41.502: 	Bit depth: 24
+01:08:41.502: 	Found proper GLXFBConfig (in 9): yes
+01:08:41.502: 
+01:08:41.515: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:08:41.517: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:08:41.517: 	title: Anger Foot
+01:08:41.517: 	class: anger foot.exe
+01:08:41.517: 	Bit depth: 24
+01:08:41.517: 	Found proper GLXFBConfig (in 9): yes
+01:08:41.517: 
+01:08:47.152: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:08:47.153: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+01:08:47.153: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+01:08:47.154: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:08:47.154: 	title: Anger Foot
+01:08:47.154: 	class: anger foot.exe
+01:08:47.154: 	Bit depth: 24
+01:08:47.154: 	Found proper GLXFBConfig (in 9): yes
+01:08:47.154: 
+01:08:47.186: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:08:47.189: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:08:47.189: 	title: Anger Foot
+01:08:47.189: 	class: anger foot.exe
+01:08:47.189: 	Bit depth: 24
+01:08:47.189: 	Found proper GLXFBConfig (in 9): yes
+01:08:47.189: 
+01:08:47.199: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:08:47.201: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:08:47.201: 	title: Anger Foot
+01:08:47.201: 	class: anger foot.exe
+01:08:47.201: 	Bit depth: 24
+01:08:47.201: 	Found proper GLXFBConfig (in 9): yes
+01:08:47.201: 
+01:08:47.252: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:08:47.286: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:08:47.286: 	title: Anger Foot
+01:08:47.286: 	class: anger foot.exe
+01:08:47.286: 	Bit depth: 24
+01:08:47.286: 	Found proper GLXFBConfig (in 9): yes
+01:08:47.286: 
+01:09:45.039: Starting recording due to hotkey
+01:09:45.041: ---------------------------------
+01:09:45.042: [NVENC encoder: 'recording_h264'] settings:
+01:09:45.042: 	rate_control: CQP
+01:09:45.042: 	bitrate:      0
+01:09:45.042: 	cqp:          19
+01:09:45.042: 	keyint:       250
+01:09:45.042: 	preset:       hp
+01:09:45.042: 	profile:      high
+01:09:45.042: 	width:        1920
+01:09:45.042: 	height:       1080
+01:09:45.042: 	2-pass:       false
+01:09:45.042: 	b-frames:     2
+01:09:45.042: 	psycho-aq:    0
+01:09:45.042: 	GPU:          0
+01:09:45.042: 
+01:09:45.226: libfdk_aac encoder created
+01:09:45.226: libfdk_aac bitrate: 160, channels: 2
+01:09:45.232: ==== Recording Start ===============================================
+01:09:45.232: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-09-45.mkv'...
+01:09:51.013: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:09:51.015: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:09:51.015: 	title: Anger Foot
+01:09:51.015: 	class: anger foot.exe
+01:09:51.015: 	Bit depth: 24
+01:09:51.015: 	Found proper GLXFBConfig (in 9): yes
+01:09:51.015: 
+01:10:14.603: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:10:14.605: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:10:14.605: 	title: Anger Foot
+01:10:14.605: 	class: anger foot.exe
+01:10:14.605: 	Bit depth: 24
+01:10:14.605: 	Found proper GLXFBConfig (in 9): yes
+01:10:14.605: 
+01:11:01.282: Stopping recording due to hotkey
+01:11:01.518: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-09-45.mkv' stopped
+01:11:01.518: Output 'adv_file_output': stopping
+01:11:01.518: Output 'adv_file_output': Total frames output: 4565
+01:11:01.518: Output 'adv_file_output': Total drawn frames: 4577
+01:11:01.518: ==== Recording Stop ================================================
+01:11:01.583: libfdk_aac encoder destroyed
+01:11:03.003: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:11:03.004: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:11:03.004: 	title: Anger Foot
+01:11:03.004: 	class: anger foot.exe
+01:11:03.004: 	Bit depth: 24
+01:11:03.004: 	Found proper GLXFBConfig (in 9): yes
+01:11:03.004: 
+01:11:35.459: Starting recording due to hotkey
+01:11:35.461: ---------------------------------
+01:11:35.462: [NVENC encoder: 'recording_h264'] settings:
+01:11:35.462: 	rate_control: CQP
+01:11:35.462: 	bitrate:      0
+01:11:35.462: 	cqp:          19
+01:11:35.462: 	keyint:       250
+01:11:35.462: 	preset:       hp
+01:11:35.462: 	profile:      high
+01:11:35.462: 	width:        1920
+01:11:35.462: 	height:       1080
+01:11:35.462: 	2-pass:       false
+01:11:35.462: 	b-frames:     2
+01:11:35.462: 	psycho-aq:    0
+01:11:35.462: 	GPU:          0
+01:11:35.462: 
+01:11:35.632: libfdk_aac encoder created
+01:11:35.632: libfdk_aac bitrate: 160, channels: 2
+01:11:35.637: ==== Recording Start ===============================================
+01:11:35.637: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-11-35.mkv'...
+01:11:36.884: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:11:36.886: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:11:36.886: 	title: Anger Foot
+01:11:36.886: 	class: anger foot.exe
+01:11:36.886: 	Bit depth: 24
+01:11:36.886: 	Found proper GLXFBConfig (in 9): yes
+01:11:36.886: 
+01:11:43.465: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:11:43.467: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:11:43.467: 	title: Anger Foot
+01:11:43.467: 	class: anger foot.exe
+01:11:43.467: 	Bit depth: 24
+01:11:43.467: 	Found proper GLXFBConfig (in 9): yes
+01:11:43.467: 
+01:13:13.421: Stopping recording due to hotkey
+01:13:13.635: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-11-35.mkv' stopped
+01:13:13.636: Output 'adv_file_output': stopping
+01:13:13.636: Output 'adv_file_output': Total frames output: 5868
+01:13:13.636: Output 'adv_file_output': Total drawn frames: 5880
+01:13:13.636: ==== Recording Stop ================================================
+01:13:13.693: libfdk_aac encoder destroyed
+01:13:26.898: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:13:26.904: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:13:26.904: 	title: Anger Foot
+01:13:26.904: 	class: anger foot.exe
+01:13:26.904: 	Bit depth: 24
+01:13:26.904: 	Found proper GLXFBConfig (in 9): yes
+01:13:26.904: 
+01:17:29.265: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:17:29.267: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:17:29.267: 	title: Installation - Sergeant_Mark_IV's BRUTAL DOOM version 21
+01:17:29.267: 	class: gzdoom.exe
+01:17:29.267: 	Bit depth: 24
+01:17:29.267: 	Found proper GLXFBConfig (in 9): yes
+01:17:29.267: 
+01:19:27.404: Starting recording due to hotkey
+01:19:27.406: ---------------------------------
+01:19:27.406: [NVENC encoder: 'recording_h264'] settings:
+01:19:27.406: 	rate_control: CQP
+01:19:27.406: 	bitrate:      0
+01:19:27.406: 	cqp:          19
+01:19:27.406: 	keyint:       250
+01:19:27.406: 	preset:       hp
+01:19:27.406: 	profile:      high
+01:19:27.406: 	width:        1920
+01:19:27.406: 	height:       1080
+01:19:27.406: 	2-pass:       false
+01:19:27.406: 	b-frames:     2
+01:19:27.406: 	psycho-aq:    0
+01:19:27.406: 	GPU:          0
+01:19:27.406: 
+01:19:27.469: libfdk_aac encoder created
+01:19:27.469: libfdk_aac bitrate: 160, channels: 2
+01:19:27.474: ==== Recording Start ===============================================
+01:19:27.474: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-19-27.mkv'...
+01:20:04.805: Stopping recording due to hotkey
+01:20:05.030: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-19-27.mkv' stopped
+01:20:05.030: Output 'adv_file_output': stopping
+01:20:05.030: Output 'adv_file_output': Total frames output: 2241
+01:20:05.030: Output 'adv_file_output': Total drawn frames: 2253
+01:20:05.031: ==== Recording Stop ================================================
+01:20:05.064: libfdk_aac encoder destroyed
+01:20:07.836: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:20:07.838: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:20:07.838: 	title: Installation - Sergeant_Mark_IV's BRUTAL DOOM version 21
+01:20:07.838: 	class: gzdoom.exe
+01:20:07.838: 	Bit depth: 24
+01:20:07.838: 	Found proper GLXFBConfig (in 9): yes
+01:20:07.838: 
+01:20:47.648: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:20:47.650: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:20:47.650: 	title: GZDoom g4.7.1  64-bit (2021-10-20 08:18:37 +0200)
+01:20:47.650: 	class: gzdoom.exe
+01:20:47.650: 	Bit depth: 24
+01:20:47.650: 	Found proper GLXFBConfig (in 9): yes
+01:20:47.650: 
+01:20:56.919: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:20:56.921: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:20:56.921: 	title: GZDoom g4.7.1  64-bit (2021-10-20 08:18:37 +0200)
+01:20:56.921: 	class: gzdoom.exe
+01:20:56.921: 	Bit depth: 24
+01:20:56.921: 	Found proper GLXFBConfig (in 9): yes
+01:20:56.921: 
+01:20:56.932: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:20:56.933: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:20:56.933: 	title: GZDoom g4.7.1  64-bit (2021-10-20 08:18:37 +0200)
+01:20:56.933: 	class: gzdoom.exe
+01:20:56.933: 	Bit depth: 24
+01:20:56.933: 	Found proper GLXFBConfig (in 9): yes
+01:20:56.933: 
+01:21:50.112: Starting recording due to hotkey
+01:21:50.114: ---------------------------------
+01:21:50.114: [NVENC encoder: 'recording_h264'] settings:
+01:21:50.114: 	rate_control: CQP
+01:21:50.114: 	bitrate:      0
+01:21:50.114: 	cqp:          19
+01:21:50.114: 	keyint:       250
+01:21:50.114: 	preset:       hp
+01:21:50.114: 	profile:      high
+01:21:50.114: 	width:        1920
+01:21:50.114: 	height:       1080
+01:21:50.114: 	2-pass:       false
+01:21:50.114: 	b-frames:     2
+01:21:50.114: 	psycho-aq:    0
+01:21:50.114: 	GPU:          0
+01:21:50.114: 
+01:21:50.178: libfdk_aac encoder created
+01:21:50.178: libfdk_aac bitrate: 160, channels: 2
+01:21:50.182: ==== Recording Start ===============================================
+01:21:50.182: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-21-50.mkv'...
+01:26:03.377: Stopping recording due to hotkey
+01:26:03.587: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-21-50.mkv' stopped
+01:26:03.587: Output 'adv_file_output': stopping
+01:26:03.587: Output 'adv_file_output': Total frames output: 15193
+01:26:03.587: Output 'adv_file_output': Total drawn frames: 15204
+01:26:03.587: ==== Recording Stop ================================================
+01:26:03.623: libfdk_aac encoder destroyed
+01:26:12.902: Starting recording due to hotkey
+01:26:12.904: ---------------------------------
+01:26:12.904: [NVENC encoder: 'recording_h264'] settings:
+01:26:12.904: 	rate_control: CQP
+01:26:12.904: 	bitrate:      0
+01:26:12.904: 	cqp:          19
+01:26:12.904: 	keyint:       250
+01:26:12.904: 	preset:       hp
+01:26:12.904: 	profile:      high
+01:26:12.904: 	width:        1920
+01:26:12.904: 	height:       1080
+01:26:12.904: 	2-pass:       false
+01:26:12.904: 	b-frames:     2
+01:26:12.904: 	psycho-aq:    0
+01:26:12.904: 	GPU:          0
+01:26:12.904: 
+01:26:12.970: libfdk_aac encoder created
+01:26:12.970: libfdk_aac bitrate: 160, channels: 2
+01:26:12.975: ==== Recording Start ===============================================
+01:26:12.975: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-26-12.mkv'...
+01:30:23.419: Stopping recording due to hotkey
+01:30:23.636: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-26-12.mkv' stopped
+01:30:23.636: Output 'adv_file_output': stopping
+01:30:23.636: Output 'adv_file_output': Total frames output: 15028
+01:30:23.636: Output 'adv_file_output': Total drawn frames: 15040
+01:30:23.636: ==== Recording Stop ================================================
+01:30:23.669: libfdk_aac encoder destroyed
+01:30:31.692: Starting recording due to hotkey
+01:30:31.694: ---------------------------------
+01:30:31.694: [NVENC encoder: 'recording_h264'] settings:
+01:30:31.694: 	rate_control: CQP
+01:30:31.694: 	bitrate:      0
+01:30:31.694: 	cqp:          19
+01:30:31.694: 	keyint:       250
+01:30:31.694: 	preset:       hp
+01:30:31.694: 	profile:      high
+01:30:31.694: 	width:        1920
+01:30:31.694: 	height:       1080
+01:30:31.694: 	2-pass:       false
+01:30:31.694: 	b-frames:     2
+01:30:31.694: 	psycho-aq:    0
+01:30:31.694: 	GPU:          0
+01:30:31.694: 
+01:30:31.759: libfdk_aac encoder created
+01:30:31.759: libfdk_aac bitrate: 160, channels: 2
+01:30:31.764: ==== Recording Start ===============================================
+01:30:31.764: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-30-31.mkv'...
+01:34:34.832: Stopping recording due to hotkey
+01:34:35.054: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-30-31.mkv' stopped
+01:34:35.054: Output 'adv_file_output': stopping
+01:34:35.054: Output 'adv_file_output': Total frames output: 14586
+01:34:35.054: Output 'adv_file_output': Total drawn frames: 14598
+01:34:35.054: ==== Recording Stop ================================================
+01:34:35.088: libfdk_aac encoder destroyed
+01:34:43.976: Starting recording due to hotkey
+01:34:43.978: ---------------------------------
+01:34:43.978: [NVENC encoder: 'recording_h264'] settings:
+01:34:43.978: 	rate_control: CQP
+01:34:43.978: 	bitrate:      0
+01:34:43.978: 	cqp:          19
+01:34:43.978: 	keyint:       250
+01:34:43.978: 	preset:       hp
+01:34:43.978: 	profile:      high
+01:34:43.978: 	width:        1920
+01:34:43.978: 	height:       1080
+01:34:43.978: 	2-pass:       false
+01:34:43.978: 	b-frames:     2
+01:34:43.978: 	psycho-aq:    0
+01:34:43.978: 	GPU:          0
+01:34:43.978: 
+01:34:44.043: libfdk_aac encoder created
+01:34:44.043: libfdk_aac bitrate: 160, channels: 2
+01:34:44.048: ==== Recording Start ===============================================
+01:34:44.048: [ffmpeg muxer: 'adv_file_output'] Writing file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-34-43.mkv'...
+01:38:11.453: Stopping recording due to hotkey
+01:38:11.671: [ffmpeg muxer: 'adv_file_output'] Output of file '/run/media/mephres/c70e4c39-e471-4fde-a86f-36316b74d1a6/Recordings/2022-05-03 01-34-43.mkv' stopped
+01:38:11.671: Output 'adv_file_output': stopping
+01:38:11.671: Output 'adv_file_output': Total frames output: 12446
+01:38:11.671: Output 'adv_file_output': Total drawn frames: 12457
+01:38:11.671: ==== Recording Stop ================================================
+01:38:11.708: libfdk_aac encoder destroyed
+01:38:12.715: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:38:12.717: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:38:12.717: 	title: Installation - Sergeant_Mark_IV's BRUTAL DOOM version 21
+01:38:12.717: 	class: gzdoom.exe
+01:38:12.717: 	Bit depth: 24
+01:38:12.717: 	Found proper GLXFBConfig (in 9): yes
+01:38:12.717: 
+01:39:13.449: ==== Shutting down ==================================================
+01:39:13.451: pulse-input: Stopped recording from 'alsa_output.pci-0000_07_00.1.hdmi-stereo-extra1.monitor'
+01:39:13.451: pulse-input: Got 1507225 packets with 491808512 frames
+01:39:13.452: pulse-input: Stopped recording from 'alsa_input.usb-audio-technica_AT2020USB_-00.analog-stereo'
+01:39:13.452: pulse-input: Got 480280 packets with 491806720 frames
+01:39:13.452: X Error: BadWindow (invalid Window parameter), Major opcode: BadValue (integer parameter out of range for operation), Minor opcode: 0, Serial: 2677048
+01:39:13.452: X Error: BadWindow (invalid Window parameter), Major opcode: 142, Minor opcode: BadWindow (invalid Window parameter), Serial: 2677049
+01:39:13.452: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+01:39:13.483: All scene data cleared
+01:39:13.483: ------------------------------------------------
+01:39:13.549: [Scripting] Total detached callbacks: 0
+01:39:13.549: Freeing OBS context data
+01:39:13.577: == Profiler Results =============================
+01:39:13.577: run_program_init: 659.384 ms
+01:39:13.577:  ┣OBSApp::AppInit: 4.013 ms
+01:39:13.577:  ┃ ┗OBSApp::InitLocale: 0.626 ms
+01:39:13.577:  ┗OBSApp::OBSInit: 591.743 ms
+01:39:13.577:    ┣obs_startup: 17.15 ms
+01:39:13.577:    ┗OBSBasic::OBSInit: 549.741 ms
+01:39:13.577:      ┣OBSBasic::InitBasicConfig: 0.052 ms
+01:39:13.577:      ┣OBSBasic::ResetAudio: 0.08 ms
+01:39:13.577:      ┣OBSBasic::ResetVideo: 112.826 ms
+01:39:13.577:      ┣OBSBasic::InitOBSCallbacks: 0.002 ms
+01:39:13.577:      ┣OBSBasic::InitHotkeys: 0.023 ms
+01:39:13.577:      ┣obs_load_all_modules: 56.503 ms
+01:39:13.577:      ┃ ┣obs_init_module(decklink-captions.so): 0.019 ms
+01:39:13.577:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 0.269 ms
+01:39:13.577:      ┃ ┣obs_init_module(frontend-tools.so): 37.837 ms
+01:39:13.577:      ┃ ┣obs_init_module(image-source.so): 0.003 ms
+01:39:13.577:      ┃ ┣obs_init_module(linux-alsa.so): 0 ms
+01:39:13.577:      ┃ ┣obs_init_module(linux-capture.so): 0.154 ms
+01:39:13.577:      ┃ ┣obs_init_module(linux-decklink.so): 0.067 ms
+01:39:13.577:      ┃ ┣obs_init_module(linux-jack.so): 0 ms
+01:39:13.577:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0 ms
+01:39:13.577:      ┃ ┣obs_init_module(linux-v4l2.so): 2.773 ms
+01:39:13.577:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.253 ms
+01:39:13.577:      ┃ ┃ ┗nvenc_check: 0.198 ms
+01:39:13.577:      ┃ ┣obs_init_module(obs-filters.so): 0.01 ms
+01:39:13.577:      ┃ ┣obs_init_module(obs-libfdk.so): 0 ms
+01:39:13.577:      ┃ ┣obs_init_module(obs-outputs.so): 0 ms
+01:39:13.577:      ┃ ┣obs_init_module(obs-transitions.so): 0.003 ms
+01:39:13.577:      ┃ ┣obs_init_module(obs-x264.so): 0 ms
+01:39:13.577:      ┃ ┣obs_init_module(rtmp-services.so): 0.414 ms
+01:39:13.577:      ┃ ┣obs_init_module(text-freetype2.so): 0.003 ms
+01:39:13.577:      ┃ ┗obs_init_module(nvfbc.so): 0.231 ms
+01:39:13.577:      ┣OBSBasic::ResetOutputs: 0.346 ms
+01:39:13.577:      ┣OBSBasic::CreateHotkeys: 0.029 ms
+01:39:13.577:      ┣OBSBasic::InitService: 0.717 ms
+01:39:13.577:      ┣OBSBasic::InitPrimitives: 0.084 ms
+01:39:13.577:      ┗OBSBasic::Load: 167.908 ms
+01:39:13.577: obs_hotkey_thread(25 ms): min=0.052 ms, median=0.105 ms, max=116.737 ms, 99th percentile=0.215 ms, 99.9665% below 25 ms
+01:39:13.577: audio_thread(Audio): min=0 ms, median=0.036 ms, max=23.608 ms, 99th percentile=0.463 ms
+01:39:13.577:  ┗receive_audio: min=0.001 ms, median=0.261 ms, max=7.697 ms, 99th percentile=0.44 ms, 0.458227 calls per parent call
+01:39:13.577:    ┣buffer_audio: min=0 ms, median=0 ms, max=0.074 ms, 99th percentile=0.001 ms
+01:39:13.577:    ┗do_encode: min=0.033 ms, median=0.259 ms, max=7.695 ms, 99th percentile=0.437 ms
+01:39:13.577:      ┣encode(Track1): min=0.032 ms, median=0.247 ms, max=0.851 ms, 99th percentile=0.352 ms
+01:39:13.577:      ┗send_packet: min=0 ms, median=0.003 ms, max=7.432 ms, 99th percentile=0.156 ms
+01:39:13.577: obs_graphics_thread(16.6667 ms): min=0.119 ms, median=0.618 ms, max=392.905 ms, 99th percentile=1.619 ms, 99.9463% below 16.667 ms
+01:39:13.577:  ┣tick_sources: min=0 ms, median=0.106 ms, max=166.982 ms, 99th percentile=0.258 ms
+01:39:13.577:  ┣output_frame: min=0.046 ms, median=0.135 ms, max=57.383 ms, 99th percentile=0.702 ms
+01:39:13.577:  ┃ ┣gs_context(video->graphics): min=0.046 ms, median=0.123 ms, max=57.382 ms, 99th percentile=0.311 ms
+01:39:13.577:  ┃ ┃ ┣render_video: min=0.016 ms, median=0.078 ms, max=34.323 ms, 99th percentile=0.232 ms
+01:39:13.577:  ┃ ┃ ┃ ┣render_main_texture: min=0.012 ms, median=0.048 ms, max=34.31 ms, 99th percentile=0.154 ms
+01:39:13.577:  ┃ ┃ ┃ ┣render_convert_texture: min=0.021 ms, median=0.035 ms, max=2.5 ms, 99th percentile=0.06 ms, 0.460597 calls per parent call
+01:39:13.577:  ┃ ┃ ┃ ┗stage_output_texture: min=0.014 ms, median=0.022 ms, max=3.156 ms, 99th percentile=0.058 ms, 0.460597 calls per parent call
+01:39:13.577:  ┃ ┃ ┣gs_flush: min=0.002 ms, median=0.004 ms, max=16.677 ms, 99th percentile=0.009 ms
+01:39:13.577:  ┃ ┃ ┗download_frame: min=0 ms, median=0.001 ms, max=24.015 ms, 99th percentile=0.003 ms, 0.460597 calls per parent call
+01:39:13.577:  ┃ ┗output_video_data: min=0.206 ms, median=0.3 ms, max=1.072 ms, 99th percentile=0.444 ms, 0.460527 calls per parent call
+01:39:13.577:  ┗render_displays: min=0.023 ms, median=0.183 ms, max=159.819 ms, 99th percentile=0.377 ms
+01:39:13.577: video_thread(video): min=0 ms, median=0.619 ms, max=9.113 ms, 99th percentile=1.063 ms
+01:39:13.577:  ┗receive_video: min=0.382 ms, median=0.618 ms, max=9.112 ms, 99th percentile=1.062 ms
+01:39:13.577:    ┗do_encode: min=0.382 ms, median=0.617 ms, max=9.11 ms, 99th percentile=1.061 ms
+01:39:13.577:      ┣encode(recording_h264): min=0.375 ms, median=0.586 ms, max=6.625 ms, 99th percentile=0.945 ms
+01:39:13.577:      ┗send_packet: min=0.001 ms, median=0.016 ms, max=8.315 ms, 99th percentile=0.219 ms
+01:39:13.577: =================================================
+01:39:13.577: == Profiler Time Between Calls ==================
+01:39:13.577: obs_hotkey_thread(25 ms): min=25.068 ms, median=25.164 ms, max=435.7 ms, 99.4077% within ±2% of 25 ms (0% lower, 0.592309% higher)
+01:39:13.577: obs_graphics_thread(16.6667 ms): min=0.325 ms, median=16.667 ms, max=392.918 ms, 99.8774% within ±2% of 16.667 ms (0.0612047% lower, 0.0613675% higher)
+01:39:13.577: =================================================
+01:39:13.607: Number of memory leaks: 3

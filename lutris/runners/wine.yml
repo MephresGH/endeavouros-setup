@@ -1,0 +1,12 @@
+system:
+  env:
+    DXVK_ASYNC: '1'
+  mangohud: true
+wine:
+  battleye: false
+  d3d_extras: false
+  dxvk_nvapi: false
+  eac: false
+  esync: true
+  fsr: false
+  vkd3d: false

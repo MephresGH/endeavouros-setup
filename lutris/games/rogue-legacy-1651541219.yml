@@ -1,0 +1,5 @@
+game:
+  exe: /run/media/mephres/60779a91-11df-44f5-a1e8-52074439e469/RogueLegacy/RogueLegacy.exe
+system: {}
+wine:
+  d3d_extras: true

@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+echo "Cleaning System Files..."
 sudo pacman -Syu;
 yay;
 yes | yay -Sc;
