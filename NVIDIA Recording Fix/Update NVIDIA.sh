@@ -1,0 +1,6 @@
+echo Purging Files...
+rm -rf obs*
+rm -rf nvidia*
+echo Copying Files...
+git clone https://gitlab.com/fzwoch/obs-nvfbc.git
+git clone https://github.com/keylase/nvidia-patch.git

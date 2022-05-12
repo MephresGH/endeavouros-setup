@@ -1,0 +1,5 @@
+game:
+  exe: /usr/bin/tlauncher
+linux: {}
+system:
+  mangohud: true

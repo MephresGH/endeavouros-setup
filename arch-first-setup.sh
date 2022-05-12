@@ -28,25 +28,26 @@ sudo pacman -S --needed pipewire pipewire-pulse pipewire-jack pipewire-alsa lib3
 sudo pacman -Rsc pulseaudio;
 echo "Updating AUR And Misc. Installations..."
 yay -Syu;
-yay goverlay;
 yay mangohud;
 yay lutris-git;
 echo "Performing QoL Commands..."
-cp "~/Downloads/Setup/autostart.sh" "~/.config/autostart-scripts";
-cp -r "~/Downloads/Setup/alacritty ~/.config";
-cp -r "~/Downloads/Setup/obs-studio" "~/.config";
-cp -r "~/Downloads/Setup/bleachbit" "~/.config";
-cp -r "~/Downloads/Setup/extensions" "~/.mozilla/extensions";
-cp -r "~/Downloads/Setup/lutris ~/.config";
-mkdir "~/.config/autostart-scripts";
-mkdir "~/.config/mpv";
-mkdir "~/.config/fish";
+cp ~/Downloads/Setup/autostart.sh ~/.config/autostart-scripts;
+cp -r ~/Downloads/Setup/alacritty ~/.config;
+cp -r ~/Downloads/Setup/obs-studio ~/.config;
+cp -r ~/Downloads/Setup/bleachbit ~/.config;
+cp -r ~/Downloads/Setup/extensions ~/.mozilla/extensions;
+cp -r ~/Downloads/Setup/lutris ~/.config;
+cp -r ~/Downloads/Setup/mangohud ~/.config;
+cp -r ~/Downloads/Setup/extensions ~/.mozilla/firefox/any*/extensions;
+mkdir ~/.config/autostart-scripts;
+mkdir ~/.config/mpv;
+mkdir ~/.config/fish;
 sudo mkdir "/root/.config/fish";
 sudo rm "/etc/X11/xinit/xinitrc";
 sudo cp ~/Downloads/Setup/xinitrc "/etc/X11/xinit";
-printf "loop-playlist=inf\nloop-file=inf" | tee "~/.config/mpv/mpv.conf";
+printf "loop-playlist=inf\nloop-file=inf" | tee ~/.config/mpv/mpv.conf;
 printf "needs_root_rights=yes\nallowed_users=anybody" | sudo tee "/etc/X11/Xwrapper.config";
-echo "set -U fish_greeting Just a small fish, nothing else. 🐟" | tee "~/.config/fish/config.fish";
+echo "set -U fish_greeting Just a small fish, nothing else. 🐟" | tee ~/.config/fish/config.fish;
 echo "set -U fish_greeting I´m the admin, let me through!" | sudo tee "/root/.config/fish/config.fish";
 sudo nano /etc/default/grub;
 sudo grub-mkconfig -o /boot/grub/grub.cfg && sudo mkinitcpio -P;
